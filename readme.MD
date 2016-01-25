@@ -1,6 +1,6 @@
 ### Ordinal Classification of Tweets
 
-This project the code for SemEval-2016 Task 4 sub-task C competition.
+This project is the code for SemEval-2016 Task 4 sub-task C competition.
 
 
 ### Contact me
