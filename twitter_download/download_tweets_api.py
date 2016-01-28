@@ -13,8 +13,11 @@ parser.add_argument('--output', dest='output', default=None, type=argparse.FileT
 
 args = parser.parse_args()
 
-CONSUMER_KEY='JEdRRoDsfwzCtupkir4ivQ'
-CONSUMER_SECRET='PAbSSmzQxbcnkYYH2vQpKVSq2yPARfKm0Yl6DrLc'
+# CONSUMER_KEY='JEdRRoDsfwzCtupkir4ivQ'
+# CONSUMER_SECRET='PAbSSmzQxbcnkYYH2vQpKVSq2yPARfKm0Yl6DrLc'
+
+CONSUMER_KEY='Dy75Hrww81hba8UefDcJCpE3A'
+CONSUMER_SECRET='kOrMLwc7g095RLmgikBGsQiD2hifREqvWeayDAlKzadEMRvV7z'
 
 MY_TWITTER_CREDS = os.path.expanduser('~/.my_app_credentials')
 if not os.path.exists(MY_TWITTER_CREDS):
