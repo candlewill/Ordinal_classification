@@ -1,0 +1,14 @@
+The file contains trial data for subtasks C, D, and E in the following tab-separated format:
+
+	Tweet ID	Topic	Score
+
+For subtask D, the labels are to be remapped to positive (5 and 4), negative (1 and 2), and neutral (3).
+
+Due to Twitter's term and conditions, we only distribute IDs.
+To obtain the actual tweets, please use the following download script:
+
+	https://github.com/aritter/twitter_download
+
+For more information about the task, see 
+	
+	http://alt.qcri.org/semeval2016/task4/
