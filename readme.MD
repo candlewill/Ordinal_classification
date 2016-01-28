@@ -2,6 +2,7 @@
 
 This project is the code for SemEval-2016 Task 4 sub-task C competition.
 
+Task: Given a tweet known to be about a given topic, estimate the sentiment conveyed by the tweet towards the topic on a five-point scale.
 
 ### Contact me
 
