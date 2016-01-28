@@ -5,7 +5,7 @@ Downloaded: ../resources/full_tweets/train_gold.tsv
 
 2. dev data for subtasks C and E with gold annotations
 
-RAW: ../resources/TRAIN + DEV+DEVTEST/gold/devtest/100_topics_100_tweets.topic-five-point.subtask-CE.dev.gold.txt
+RAW: ../resources/TRAIN + DEV+DEVTEST/gold/dev/100_topics_100_tweets.topic-five-point.subtask-CE.dev.gold.txt
 Downloaded: ../resources/full_tweets/dev_gold.tsv
 
 3. devtest data for subtasks C and E with gold annotations
@@ -17,3 +17,12 @@ Downloaded: ../resources/full_tweets/devtest_gold.tsv
 
 RAW: ../resources/TRAIN + DEV+DEVTEST/input/devtest/100_topics_100_tweets.topic-five-point.subtask-CE.devtest.input.txt
 Downloaded: ../resources/full_tweets/devtest_input.tsv
+
+Full Tweets Downloading Script:
+
+python download_tweets_api.py --dist=tweeti-a.dist.tsv --output=downloaded.tsv
+
+1. python download_tweets_api.py --dist="../resources/TRAIN + DEV+DEVTEST/gold/train/100_topics_100_tweets.topic-five-point.subtask-CE.train.gold.txt" --output="../resources/full_tweets/train_gold.tsv"
+2. python download_tweets_api.py --dist="../resources/TRAIN + DEV+DEVTEST/gold/dev/100_topics_100_tweets.topic-five-point.subtask-CE.dev.gold.txt" --output="../resources/full_tweets/dev_gold.tsv"
+3. python download_tweets_api.py --dist="../resources/TRAIN + DEV+DEVTEST/gold/devtest/100_topics_100_tweets.topic-five-point.subtask-CE.devtest.gold.txt" --output="../resources/full_tweets/devtest_gold.tsv"
+4. python download_tweets_api.py --dist="../resources/TRAIN + DEV+DEVTEST/input/devtest/100_topics_100_tweets.topic-five-point.subtask-CE.devtest.input.txt" --output="../resources/full_tweets/devtest_input.tsv"
