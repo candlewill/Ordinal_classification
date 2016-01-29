@@ -8,10 +8,12 @@ Task: Given a tweet known to be about a given topic, estimate the sentiment conv
 
 |Name|Size|# Available|# Topics|#(-2)|#(-1)|#(0) |#(1)|#(2)|Max Length|Min Length|Average Length|
 |------|------|------|------|------|------|------|------|------|------|------|------|
-|Gold Train||||||||||||
+|Gold Train|6000|5346 (89.1%)|60|87|668|1654|3154|437|34|2||
 |Gold Dev|||||||||
 |Gold Devtest|||||||||
 |Input Devtest|||||||||
+
+Note: The "Not Available" terms are removed when gather statistics information of Max Length, Min Length, Average Length.
 
 Number and Sentiment Intensity mapping method
 
@@ -20,7 +22,7 @@ Number and Sentiment Intensity mapping method
 |Sentiment Score|-2|-1|0|1|2|
 ### Contact me
 
-* [Yunchao He] (https://plus.google.com/+YunchaoHe)
+* [Yunchao He](https://plus.google.com/+YunchaoHe)
 * yunchaohe@gmail.com
 * [YZU](http://www.yzu.edu.tw/) at Taiwan
 * [Weibo](http://weibo.com/heyunchao)

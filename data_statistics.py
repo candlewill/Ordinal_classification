@@ -1,13 +1,15 @@
 import numpy as np
-
+from load_data import load_SemEval
 
 def SemEval_statistics(topics, scores, texts):
     # data type: list
     size = len(texts)
     print("size: %s" % len(texts))
     nb_unavailable_text = 0
+    unavailable_mark = "Not Available"
+
     for i in texts:
-        if i == "Not Available":
+        if i == unavailable_mark:
             nb_unavailable_text += 1
     print("Number of Unavailable Texts: %s, number of available text: %s (%s)" % (
     nb_unavailable_text, size - nb_unavailable_text, (size - nb_unavailable_text) / size))
@@ -20,7 +22,8 @@ def SemEval_statistics(topics, scores, texts):
 
     texts_len = []
     for text in texts:
-        texts_len.append(len(text.split()))
+        if text != unavailable_mark:
+            texts_len.append(len(text.split()))
     texts_len = np.array(texts_len)
     max_Length = np.max(texts_len)
     min_Length = np.min(texts_len)
@@ -29,4 +32,14 @@ def SemEval_statistics(topics, scores, texts):
 
 
 if __name__ == "__main__":
-    filenames = ["dev_gold.tsv", "", "",""]
+    filenames = ["dev_gold.tsv", "devtest_gold.tsv", "devtest_input.tsv","train_gold.tsv"]
+    file_dir = "./resources/full_tweets/"
+
+    for filename in filenames:
+        print("------------------------- Filename: %s -------------------------" % filename)
+        filename = file_dir + filename
+        if "devtest_input.tsv" in filename:
+            topics, scores, texts = load_SemEval(filename, "input")
+        else:
+            topics, scores, texts = load_SemEval(filename)
+        SemEval_statistics(topics, scores, texts)

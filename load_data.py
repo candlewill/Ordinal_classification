@@ -11,8 +11,8 @@ def load_SemEval(filename, type='gold'):
         raise Exception('Wrong parameter value for type.')
 
     topics, scores, texts = [], [], []
-    with open(filename, 'r', newline='', encoding='utf-8') as f:
-        reader = csv.reader(f, delimiter='\t')
+    with open(filename, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
         for line in reader:
             topics.append(str(line[topic_col]))
             texts.append(str(line[text_col]))
@@ -23,5 +23,7 @@ def load_SemEval(filename, type='gold'):
     return topics, scores, texts
 
 if __name__ == '__main__':
-    topics, scores, texts = load_SemEval("./resources/full_tweets/train_gold.tsv", "input")
-    print(topics[:100])
+    topics, scores, texts = load_SemEval("./resources/full_tweets/train_gold.tsv")
+    i = 1898
+    print(texts[i-1], topics[i-1], scores[i-1])
+    print(len(texts))
