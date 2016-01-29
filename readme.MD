@@ -6,9 +6,12 @@ Task: Given a tweet known to be about a given topic, estimate the sentiment conv
 
 ### Data Description
 
-|Name|Size|# Available|# Topics|#(-2)|#(-1)|#(0) |#(1)|#(2)|
-|------|------|------|------|------|------|------|------|------|
-||||||||||
+|Name|Size|# Available|# Topics|#(-2)|#(-1)|#(0) |#(1)|#(2)|Max Length|Min Length|Average Length|
+|------|------|------|------|------|------|------|------|------|------|------|------|
+|Gold Train||||||||||||
+|Gold Dev|||||||||
+|Gold Devtest|||||||||
+|Input Devtest|||||||||
 
 Number and Sentiment Intensity mapping method
 
