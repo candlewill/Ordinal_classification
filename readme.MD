@@ -21,7 +21,7 @@ Number and Sentiment Intensity mapping method
 |------|------|------|------|------|------|
 |Sentiment Score|-2|-1|0|1|2|
 
-The topics in gold train, gold dev, gold devtest data: [topics](./MD/topics.MD). We can see that the topic in different data set is different. Exactly, there is no common topics between the three data set.
+The topics in gold train, gold dev, gold devtest data: [topics](./MD/topics.MD). We can see that the topic in different data set is different. Exactly, there are no common topics between the three data set.
 
 ### Contact me
 
