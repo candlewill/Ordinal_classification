@@ -20,6 +20,9 @@ Number and Sentiment Intensity mapping method
 |Sentiment Intensity|strongly negative|negative|negative or neutral|positive|strongly positive|
 |------|------|------|------|------|------|
 |Sentiment Score|-2|-1|0|1|2|
+
+The topics in gold train, gold dev, gold devtest data: [topics](./MD/topics.MD)
+
 ### Contact me
 
 * [Yunchao He](https://plus.google.com/+YunchaoHe)

@@ -15,6 +15,7 @@ def SemEval_statistics(topics, scores, texts):
     nb_unavailable_text, size - nb_unavailable_text, (size - nb_unavailable_text) / size))
     nb_topics = len(set(topics))
     print("number of topics: %s" % nb_topics)
+    print("Topics: %s" % str(sorted(set(topics))))
 
     score_set = [-2, -1, 0, 1, 2]
     for score in score_set:
@@ -29,6 +30,7 @@ def SemEval_statistics(topics, scores, texts):
     min_Length = np.min(texts_len)
     average_Length = np.mean(texts_len)
     print("Max Length: %s, Min Length: %s, Average Length: %s" % (max_Length, min_Length, average_Length))
+
 
 
 if __name__ == "__main__":
