@@ -28,3 +28,7 @@ python download_tweets_api.py --dist=tweeti-a.dist.tsv --output=downloaded.tsv
 4. python download_tweets_api.py --dist="../resources/TRAIN + DEV+DEVTEST/input/devtest/100_topics_100_tweets.topic-five-point.subtask-CE.devtest.input.txt" --output="../resources/full_tweets/devtest_input.tsv"
 
 5. python download_tweets_api.py --dist="../resources/TRAIN + DEV+DEVTEST/gold/train/part2.txt" --output="../resources/full_tweets/train_gold_part2.tsv"
+
+6. Older Data
+
+python download_tweets_api.py --dist="../resources/Older data/SemEval2016_task4_trial_C_D_E/SemEval2016_task4_trial_C_D_E.txt" --output="downloaded.tsv"
