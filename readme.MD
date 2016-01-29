@@ -6,12 +6,12 @@ Task: Given a tweet known to be about a given topic, estimate the sentiment conv
 
 ### Data Description
 
-|Name|Size|# Available|# Topics|#(-2)|#(-1)|#(0) |#(1)|#(2)|Max Length|Min Length|Average Length|
+|Name|Size|# Available (Percentage)|# Topics|#(-2)|#(-1)|#(0) |#(1)|#(2)|Max Length|Min Length|Average Length|
 |------|------|------|------|------|------|------|------|------|------|------|------|
-|Gold Train|6000|5346 (89.1%)|60|87|668|1654|3154|437|34|2||
-|Gold Dev|||||||||
-|Gold Devtest|||||||||
-|Input Devtest|||||||||
+|Gold Train|6000|5346 (89.1%)|60|87|668|1654|3154|437|34|5|19.49|
+|Gold Dev|2000|1795 (89.75%)|20|43|296|675|933|53|31|6|19.58|
+|Gold Devtest|2000|1781 (89.05%)|31|233|583|1005|148|31|5|19.69|
+|Input Devtest|2000|1781 (89.05%)|nan|nan|nan|nan|nan|31|5|19.69|
 
 Note: The "Not Available" terms are removed when gather statistics information of Max Length, Min Length, Average Length.
 
