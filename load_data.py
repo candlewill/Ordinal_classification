@@ -2,7 +2,6 @@ import csv
 import pickle
 import gensim
 import codecs
-fro
 
 
 def load_SemEval(filename, type='gold'):

@@ -22,7 +22,7 @@ maxlen = 140  # max length of a sentence
 ##############################################################
 
 
-def cnn():
+def cnn(W):
     nb_filter = 250
     filter_length = 3
     hidden_dims = 250
@@ -31,7 +31,7 @@ def cnn():
 
     # we start off with an efficient embedding layer which maps
     # our vocab indices into embedding_dims dimensions
-    model.add(Embedding(max_features, embedding_dims, input_length=maxlen))
+    model.add(Embedding(W.shape[0], W.shape[1], input_length=maxlen, weights=W))
     model.add(Dropout(0.25))
 
     # we add a Convolution1D, which will learn nb_filter
@@ -55,7 +55,7 @@ def cnn():
 
     # We project onto a single unit output layer, and squash it with a sigmoid:
     model.add(Dense(1))
-    model.add(Activation('sigmoid'))
+    model.add(Activation('linear'))
 
     return model
 
