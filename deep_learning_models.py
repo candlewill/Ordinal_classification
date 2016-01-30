@@ -10,13 +10,18 @@ from keras.layers.embeddings import Embedding
 from keras.layers.convolutional import Convolution1D, MaxPooling1D
 from keras.layers.recurrent import LSTM, GRU
 from keras.models import Graph
+
+
+
 ######################### settings ###########################
+
 max_features = 200  # vocabulary size
 embedding_dims = 128  # dimension of word embedding
 maxlen = 140  # max length of a sentence
 
-
 ##############################################################
+
+
 def cnn():
     nb_filter = 250
     filter_length = 3
@@ -111,6 +116,4 @@ def cnn_lstm():
     model.add(Activation('sigmoid'))
 
     return model
-
-
 
