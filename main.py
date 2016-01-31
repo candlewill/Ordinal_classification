@@ -45,10 +45,10 @@ Y_dev = (np.array(Y_dev) + 2) / 4
 Y_test = (np.array(Y_test) + 2) / 4
 
 batch_size = 8
-nb_epoch = 10
+nb_epoch = 3
 model = cnn_lstm(W)
 
-model.compile(loss='rmse', optimizer='adagrad')  # loss function: mse
+model.compile(loss='mae', optimizer='adagrad')  # loss function: mse
 print("Train...")
 early_stopping = EarlyStopping(monitor='val_loss', patience=5)
 result = model.fit(X_train, Y_train, batch_size=batch_size, nb_epoch=nb_epoch, validation_data=(X_valid, Y_dev),

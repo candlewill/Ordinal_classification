@@ -1,97 +1,95 @@
 {
-  "loss": "root_mean_squared_error",
-  "name": "Sequential",
   "class_mode": "categorical",
   "layers": [
     {
-      "mask_zero": false,
-      "input_shape": [
-        10599
-      ],
-      "input_dim": 10599,
-      "init": "uniform",
-      "cache_enabled": true,
-      "activity_regularizer": null,
-      "output_dim": 400,
-      "name": "Embedding",
-      "W_constraint": null,
+      "input_dim": 10726,
       "input_length": 32,
-      "W_regularizer": null
-    },
-    {
-      "name": "Dropout",
-      "cache_enabled": true,
-      "p": 0.25
-    },
-    {
-      "input_dim": null,
-      "init": "uniform",
-      "filter_length": 3,
-      "name": "Convolution1D",
-      "W_constraint": null,
-      "input_length": null,
-      "border_mode": "valid",
-      "nb_filter": 64,
-      "b_regularizer": null,
-      "cache_enabled": true,
       "activity_regularizer": null,
-      "b_constraint": null,
+      "output_dim": 300,
+      "mask_zero": false,
+      "W_constraint": null,
+      "init": "uniform",
       "W_regularizer": null,
-      "subsample_length": 1,
-      "activation": "relu"
+      "input_shape": [
+        10726
+      ],
+      "name": "Embedding",
+      "cache_enabled": true
     },
     {
+      "p": 0.25,
+      "name": "Dropout",
+      "cache_enabled": true
+    },
+    {
+      "b_regularizer": null,
+      "input_dim": null,
+      "activity_regularizer": null,
+      "activation": "relu",
+      "b_constraint": null,
+      "init": "uniform",
+      "name": "Convolution1D",
+      "input_length": null,
+      "nb_filter": 64,
+      "subsample_length": 1,
+      "W_constraint": null,
+      "border_mode": "valid",
+      "W_regularizer": null,
+      "filter_length": 3,
+      "cache_enabled": true
+    },
+    {
+      "stride": 2,
       "border_mode": "valid",
       "name": "MaxPooling1D",
-      "pool_length": 2,
       "cache_enabled": true,
-      "stride": 2
+      "pool_length": 2
     },
     {
-      "input_dim": 64,
+      "forget_bias_init": "one",
       "inner_init": "orthogonal",
-      "init": "glorot_uniform",
-      "name": "LSTM",
-      "input_length": null,
       "output_dim": 64,
       "stateful": false,
-      "forget_bias_init": "one",
-      "cache_enabled": true,
-      "return_sequences": false,
       "go_backwards": false,
+      "init": "glorot_uniform",
       "activation": "tanh",
-      "inner_activation": "hard_sigmoid"
+      "name": "LSTM",
+      "input_dim": 64,
+      "return_sequences": false,
+      "input_length": null,
+      "inner_activation": "hard_sigmoid",
+      "cache_enabled": true
     },
     {
+      "b_regularizer": null,
+      "input_dim": null,
+      "activity_regularizer": null,
       "output_dim": 64,
+      "activation": "linear",
+      "b_constraint": null,
       "W_constraint": null,
       "init": "glorot_uniform",
-      "cache_enabled": true,
-      "activity_regularizer": null,
-      "b_constraint": null,
-      "b_regularizer": null,
-      "input_dim": null,
-      "name": "Dense",
       "W_regularizer": null,
-      "activation": "linear"
+      "name": "Dense",
+      "cache_enabled": true
     },
     {
+      "p": 0.25,
       "name": "Dropout",
-      "cache_enabled": true,
-      "p": 0.25
+      "cache_enabled": true
     },
     {
-      "output_dim": 1,
-      "W_constraint": null,
-      "init": "glorot_uniform",
-      "cache_enabled": true,
-      "activity_regularizer": null,
-      "b_constraint": null,
       "b_regularizer": null,
       "input_dim": null,
-      "name": "Dense",
+      "activity_regularizer": null,
+      "output_dim": 1,
+      "activation": "linear",
+      "b_constraint": null,
+      "W_constraint": null,
+      "init": "glorot_uniform",
       "W_regularizer": null,
-      "activation": "linear"
+      "name": "Dense",
+      "cache_enabled": true
     },
     {
       "name": "Activation",
@@ -100,8 +98,10 @@
     }
   ],
   "optimizer": {
-    "name": "Adagrad",
     "epsilon": 1e-06,
+    "name": "Adagrad",
     "lr": 0.009999999776482582
-  }
+  },
+  "name": "Sequential",
+  "loss": "mean_absolute_error"
 }

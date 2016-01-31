@@ -80,10 +80,10 @@ def gru(W):
     return model
 
 
-def bidirectional_lstm():
+def bidirectional_lstm(W):
     model = Graph()
     model.add_input(name='input', input_shape=(maxlen,), dtype=int)
-    model.add_node(Embedding(max_features, 128, input_length=maxlen),
+    model.add_node(Embedding(W.shape[0], W.shape[1], weights=[W], input_length=maxlen),
                    name='embedding', input='input')
     model.add_node(LSTM(64), name='forward', input='embedding')
     model.add_node(LSTM(64, go_backwards=True), name='backward', input='embedding')
