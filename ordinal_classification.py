@@ -160,8 +160,8 @@ def build_ordinal_regression_input():
 
     _, scores_old, texts_old = load_SemEval("./resources/full_tweets/old_data.tsv")
 
-    scores_train =
-    texts_train
+    scores_train = scores_train + [i - 3 for i in scores_old]  # from [1, 5] to [-2, 2]
+    texts_train = texts_train + texts_old
 
     keys = ["train", "dev", "devtest"]
     texts, scores = dict(), dict()
