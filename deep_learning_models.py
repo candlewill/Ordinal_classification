@@ -98,11 +98,12 @@ def cnn_lstm(W):
     nb_filter = 64
     filter_length = 3
     pool_length = 2
-    lstm_output_size = 70
+    lstm_output_size = 64
+    p = 0.25
 
     model = Sequential()
     model.add(Embedding(W.shape[0], W.shape[1], input_length=maxlen, weights=[W]))
-    model.add(Dropout(0.25))
+    model.add(Dropout(p))
     model.add(Convolution1D(nb_filter=nb_filter,
                             filter_length=filter_length,
                             border_mode='valid',
@@ -110,6 +111,7 @@ def cnn_lstm(W):
                             subsample_length=1))
     model.add(MaxPooling1D(pool_length=pool_length))
     model.add(LSTM(lstm_output_size))
+
     model.add(Dense(1))
     model.add(Activation('sigmoid'))
 
@@ -139,17 +141,17 @@ def cnn_gru(W):
 
 
 def b_rnn(W):
-    lstm = LSTM(output_dim=70)
-    gru = GRU(output_dim=70)
+    lstm_output_size = 64
+    lstm = LSTM(output_dim=lstm_output_size)
+    gru = GRU(output_dim=lstm_output_size)
     brnn = Bidirectional(forward=lstm, backward=gru)
 
     nb_filter = 64
     filter_length = 3
     pool_length = 2
-    lstm_output_size = 70
 
     model = Sequential()
-    model.add(Embedding(W.shape[0], W.shape[1], input_length=maxlen))
+    model.add(Embedding(W.shape[0], W.shape[1], input_length=maxlen, weights=[W]))
     model.add(Dropout(0.25))
     model.add(Convolution1D(nb_filter=nb_filter,
                             filter_length=filter_length,

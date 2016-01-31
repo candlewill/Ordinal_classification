@@ -7,6 +7,8 @@ from keras.callbacks import EarlyStopping
 from deep_learning_models import cnn_lstm
 
 
+# from deep_learning_models import b_rnn
+
 def load_pickle(filename):
     out = pickle.load(open(filename, "rb"))
     return out
@@ -43,7 +45,7 @@ Y_dev = (np.array(Y_dev) + 2) / 4
 Y_test = (np.array(Y_test) + 2) / 4
 
 batch_size = 8
-nb_epoch = 1
+nb_epoch = 5
 model = cnn_lstm(W)
 
 model.compile(loss='rmse', optimizer='adagrad')  # loss function: mse

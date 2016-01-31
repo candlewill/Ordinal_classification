@@ -25,9 +25,10 @@ for t in texts:
 
 timestr = time.strftime("%Y%m%d-%H%M%S")
 path = "./tmp/submit" + str(timestr) + ".csv"
-print("File saved to: " + path)
 
 with open(path, 'w', newline='') as f:
     w = csv.writer(f, delimiter='\t')
     for i in range(len(ids)):
         w.writerow([ids[i], topics[i], ratings[i]])
+
+print("File saved to: " + path)
