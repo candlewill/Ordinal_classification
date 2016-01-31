@@ -49,7 +49,11 @@ def load_pickle(filename):
 
 
 def load_embeddings(filename, binary=False):
-    model = gensim.models.Word2Vec.load_word2vec_format(filename, binary=binary)
+    if "word2vec_twitter_model.bin" not in filename:
+        model = gensim.models.Word2Vec.load_word2vec_format(filename, binary=binary)
+    else:
+        from word2vecReader import Word2Vec
+        model = Word2Vec.load_word2vec_format(filename, binary=True)
     w2v = dict()
     vocabs = model.vocab.keys()
     print("Vocabulary size before pre-processing: %s." % len(vocabs))
