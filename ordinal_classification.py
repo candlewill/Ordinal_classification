@@ -96,7 +96,7 @@ def make_idx_data(sentences, word_idx_map):
 
 
 def build_keras_input(texts, scores, test, new=True):
-    dims = 400
+    dims = 300
 
     # texts, scores are dict type, key: train, dev, devtest.
     keys = ["train", "dev", "devtest"]
@@ -125,9 +125,9 @@ def build_keras_input(texts, scores, test, new=True):
     # using word2vec vectors
     # word_vecs = load_embeddings('google_news', '/home/hs/Data/Word_Embeddings/google_news.bin')
     # word_vecs = load_embeddings('D:/Word_Embeddings/glove.840B.300d.txt.w2v')
-    # word_vecs = load_embeddings('/home/hs/Data/Word_Embeddings/glove.840B.300d.txt.w2v')
-    word_vecs = load_embeddings('/home/hs/Data/Word_Embeddings/word2vec_twitter_model/word2vec_twitter_model.bin',
-                                binary=True)
+    word_vecs = load_embeddings('/home/hs/Data/Word_Embeddings/glove.840B.300d.txt.w2v')
+    # word_vecs = load_embeddings('/home/hs/Data/Word_Embeddings/word2vec_twitter_model/word2vec_twitter_model.bin',
+    #                             binary=True)
 
     word_vecs = add_unknown_words(word_vecs, vocab, k=dims)
     W, word_idx_map = build_embedding_matrix(word_vecs, vocab, k=dims)
