@@ -17,6 +17,8 @@ maxlen = 140
 filename_data, filename_w = './tmp/indexed_data.p', './tmp/Weight.p'
 data = load_pickle(filename_data)
 W = load_pickle(filename_w)
+test = load_pickle('./tmp/test_data.p')
+
 vocabulary_size, dims = W.shape
 print("Vocabulary_size, dims = %s, %s." % W.shape)
 
@@ -29,6 +31,8 @@ print("Pad sequences (samples x time)")
 X_train = sequence.pad_sequences(X_train, maxlen=maxlen)
 X_test = sequence.pad_sequences(X_test, maxlen=maxlen)
 X_valid = sequence.pad_sequences(X_valid, maxlen=maxlen)
+submit_test = sequence.pad_sequences(test[2], maxlen=maxlen)
+
 print('X_train shape:', X_train.shape)
 print('X_valid shape:', X_valid.shape)
 print('X_test shape:', X_test.shape)
@@ -55,6 +59,10 @@ print('Test score:', score)
 predict = model.predict(X_test, batch_size=batch_size).reshape((1, len(X_test)))[0]
 print('Y_test: %s' % str(Y_test))
 print('Predict value: %s' % str(predict))
+
+submit_predict = model.predict(submit_test, batch_size=batch_size).reshape((1, len(X_test)))[0]
+
+pickle.dump((test, submit_predict), open("./tmp/submit.p", 'wb'))
 
 print("Saving model and weights...")
 json_string = model.to_json()

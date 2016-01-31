@@ -5,13 +5,13 @@ import os
 
 import numpy as np
 from keras.preprocessing import sequence
-
 from keras.callbacks import EarlyStopping
 
 from load_data import load_SemEval
 from load_data import load_pickle, load_embeddings
 from save_data import dump_picle
 from deep_learning_models import maxlen, cnn
+from load_data import load_SemEval_test
 
 
 def clean_str(sentence):
@@ -98,7 +98,7 @@ def make_idx_data(sentences, word_idx_map):
     return idx_data
 
 
-def build_keras_input(texts, scores, new=True):
+def build_keras_input(texts, scores, test, new=True):
     # texts, scores are dict type, key: train, dev, devtest.
     keys = ["train", "dev", "devtest"]
     train, train_scores = texts[keys[0]], scores[keys[0]]
@@ -107,11 +107,16 @@ def build_keras_input(texts, scores, new=True):
 
     filename_data, filename_w = './tmp/indexed_data.p', './tmp/Weight.p'
 
+    test_filename = './tmp/test_data.p'
+
     if os.path.isfile(filename_data) and os.path.isfile(filename_w) and new == False:
         data = load_pickle(filename_data)
         W = load_pickle(filename_w)
+
+        test_data = load_pickle(test_filename)
+
         print('Use existing data. Load OK.')
-        return (data, W)
+        return (data, W, test_data)
 
     print("Construct new data.")
     # load data from pickle
@@ -130,13 +135,18 @@ def build_keras_input(texts, scores, new=True):
     idx_data_dev = make_idx_data(dev, word_idx_map)
     idx_data_devtest = make_idx_data(devtest, word_idx_map)
 
+    idx_data_test = make_idx_data(test[2], word_idx_map)
+
     data = (idx_data_train, idx_data_dev, idx_data_devtest, train_scores, dev_scores, devtest_scores)
+
+    test_data = (test[0], test[1], idx_data_test)
 
     dump_picle(data, filename_data)
     dump_picle(W, filename_w)
+    dump_picle()
     print("Saved: data and W are saved into: %s, and %s." % (filename_data, filename_w))
 
-    return (data, W)
+    return (data, W, test_data)
 
 
 def remove_unavailable(texts, scores):
@@ -160,6 +170,11 @@ def build_ordinal_regression_input():
 
     _, scores_old, texts_old = load_SemEval("./resources/full_tweets/old_data.tsv")
 
+    ids, topics, texts = load_SemEval_test(
+        './resources/TEST data/SemEval2016_Task4_test_datasets/SemEval2016-task4-test.subtask-BCDE.txt')
+
+    test = [ids, topics, texts]
+
     scores_train = scores_train + [i - 3 for i in scores_old]  # from [1, 5] to [-2, 2]
     texts_train = texts_train + texts_old
 
@@ -170,7 +185,7 @@ def build_ordinal_regression_input():
     texts[keys[1]], scores[keys[1]] = remove_unavailable(texts_dev, scores_dev)
     texts[keys[2]], scores[keys[2]] = remove_unavailable(texts_devtest, scores_devtest)
 
-    data, W = build_keras_input(texts, scores, new=True)
+    data, W, _ = build_keras_input(texts, scores, test, new=True)
     exit()
 
     vocabulary_size, dims = W.shape

@@ -26,6 +26,23 @@ def load_SemEval(filename, type='gold'):
     return topics, scores, texts
 
 
+def load_SemEval_test(filename):
+    id_col, topic_col, text_col = 0, 1, 3
+    ids, topics, texts = [], [], []
+    with open(filename, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
+        for line in reader:
+            ids.append(int(line[id_col]))
+            topics.append(str(line[topic_col]))
+            texts.append(str(line[text_col]))
+
+    return ids, topics, texts
+
+
+# ids, topics, texts = load_load_SemEval_test('./resources/TEST data/SemEval2016_Task4_test_datasets/SemEval2016-task4-test.subtask-BCDE.txt')
+# print(len(texts))
+# exit()
+
 def load_pickle(filename):
     out = pickle.load(open(filename, "rb"))
     return out
