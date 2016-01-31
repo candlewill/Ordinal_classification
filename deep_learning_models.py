@@ -102,7 +102,7 @@ def cnn_lstm(W):
     lstm_output_size = 70
 
     model = Sequential()
-    model.add(Embedding(W.shape[0], W.shape[1], input_length=maxlen))
+    model.add(Embedding(W.shape[0], W.shape[1], input_length=maxlen, weights=[W]))
     model.add(Dropout(0.25))
     model.add(Convolution1D(nb_filter=nb_filter,
                             filter_length=filter_length,
