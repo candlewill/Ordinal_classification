@@ -55,7 +55,7 @@ def vector_convert(filename, postfix='.w2v'):
     print("Converting finished!")
 
 
-# vector_convert("D:/Word_Embeddings/glove.840B.300d.txt")
+# vector_convert("/home/hs/Data/Word_Embeddings/glove.840B.300d.txt")
 # exit()
 
 if __name__ == '__main__':

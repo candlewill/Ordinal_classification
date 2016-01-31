@@ -31,7 +31,7 @@ def cnn(W):
 
     # we start off with an efficient embedding layer which maps
     # our vocab indices into embedding_dims dimensions
-    model.add(Embedding(W.shape[0], W.shape[1], input_length=maxlen, weights=W))
+    model.add(Embedding(W.shape[0], W.shape[1], input_length=maxlen, weights=[W]))
     model.add(Dropout(0.25))
 
     # we add a Convolution1D, which will learn nb_filter
@@ -117,3 +117,6 @@ def cnn_lstm():
 
     return model
 
+if __name__ == "__main__":
+
+    pass

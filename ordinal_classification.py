@@ -114,7 +114,8 @@ def build_keras_input(texts, scores, new=True):
 
     # using word2vec vectors
     # word_vecs = load_embeddings('google_news', '/home/hs/Data/Word_Embeddings/google_news.bin')
-    word_vecs = load_embeddings('D:/Word_Embeddings/glove.840B.300d.txt.w2v')
+    # word_vecs = load_embeddings('D:/Word_Embeddings/glove.840B.300d.txt.w2v')
+    word_vecs = load_embeddings('/home/hs/Data/Word_Embeddings/glove.840B.300d.txt.w2v')
 
     word_vecs = add_unknown_words(word_vecs, vocab)
     W, word_idx_map = build_embedding_matrix(word_vecs, vocab)
@@ -146,7 +147,7 @@ def remove_unavailable(texts, scores):
     return (texts, scores)
 
 
-def ordinal_regression():
+def build_ordinal_regression_input():
     _, scores_train, texts_train = load_SemEval("./resources/full_tweets/train_gold.tsv")
     _, scores_dev, texts_dev = load_SemEval("./resources/full_tweets/dev_gold.tsv")
     _, scores_devtest, texts_devtest = load_SemEval("./resources/full_tweets/devtest_gold.tsv")
@@ -158,7 +159,8 @@ def ordinal_regression():
     texts[keys[1]], scores[keys[1]] = remove_unavailable(texts_dev, scores_dev)
     texts[keys[2]], scores[keys[2]] = remove_unavailable(texts_devtest, scores_devtest)
 
-    data, W = build_keras_input(texts, scores)
+    data, W = build_keras_input(texts, scores, new=False)
+
     vocabulary_size, dims = W.shape
     print("Vocabulary_size, dims = %s, %s."%W.shape)
 
@@ -215,4 +217,4 @@ def ordinal_regression():
 
 
 if __name__ == "__main__":
-    ordinal_regression()
+    build_ordinal_regression_input()
