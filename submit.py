@@ -1,5 +1,5 @@
 import csv
-
+import time
 from load_data import load_pickle
 
 (test, submit_predict) = load_pickle("./tmp/submit.p")
@@ -22,7 +22,10 @@ for score in submit_predict:
 for t in texts:
     print(t)
 
-with open("./tmp/submit.csv", 'w', newline='') as f:
+timestr = time.strftime("%Y%m%d-%H%M%S")
+print("File saved to: " % timestr)
+
+with open("./tmp/submit" + str(timestr) + ".csv", 'w', newline='') as f:
     w = csv.writer(f, delimiter='\t')
     for i in range(len(ids)):
         w.writerow([ids[i], topics[i], ratings[i]])

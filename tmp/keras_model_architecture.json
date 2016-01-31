@@ -1,89 +1,89 @@
 {
-  "loss": "root_mean_squared_error",
-  "optimizer": {
-    "epsilon": 1e-06,
-    "lr": 0.009999999776482582,
-    "name": "Adagrad"
-  },
-  "class_mode": "categorical",
   "layers": [
     {
-      "W_constraint": null,
-      "output_dim": 300,
-      "input_shape": [
-        10423
-      ],
-      "cache_enabled": true,
+      "W_regularizer": null,
       "name": "Embedding",
-      "W_regularizer": null,
-      "input_dim": 10423,
-      "input_length": 140,
-      "activity_regularizer": null,
-      "mask_zero": false,
-      "init": "uniform"
-    },
-    {
-      "p": 0.25,
-      "cache_enabled": true,
-      "name": "Dropout"
-    },
-    {
-      "border_mode": "valid",
-      "W_constraint": null,
-      "activation": "relu",
-      "cache_enabled": true,
-      "nb_filter": 64,
-      "input_dim": null,
-      "b_constraint": null,
-      "activity_regularizer": null,
-      "filter_length": 3,
+      "output_dim": 300,
       "init": "uniform",
-      "name": "Convolution1D",
-      "W_regularizer": null,
-      "b_regularizer": null,
-      "subsample_length": 1,
-      "input_length": null
-    },
-    {
-      "border_mode": "valid",
-      "stride": 2,
-      "pool_length": 2,
-      "cache_enabled": true,
-      "name": "MaxPooling1D"
-    },
-    {
-      "activation": "tanh",
-      "go_backwards": false,
-      "input_dim": 64,
-      "inner_init": "orthogonal",
-      "output_dim": 70,
-      "stateful": false,
-      "init": "glorot_uniform",
-      "forget_bias_init": "one",
-      "name": "LSTM",
-      "inner_activation": "hard_sigmoid",
-      "input_length": null,
-      "return_sequences": false,
+      "W_constraint": null,
+      "input_dim": 10726,
+      "input_length": 32,
+      "input_shape": [
+        10726
+      ],
+      "mask_zero": false,
+      "activity_regularizer": null,
       "cache_enabled": true
     },
     {
-      "W_constraint": null,
-      "activation": "linear",
-      "activity_regularizer": null,
-      "cache_enabled": true,
-      "output_dim": 1,
-      "name": "Dense",
-      "W_regularizer": null,
-      "input_dim": null,
-      "b_constraint": null,
-      "b_regularizer": null,
-      "init": "glorot_uniform"
+      "p": 0.25,
+      "name": "Dropout",
+      "cache_enabled": true
     },
     {
-      "activation": "sigmoid",
+      "filter_length": 3,
+      "subsample_length": 1,
+      "W_constraint": null,
+      "input_length": null,
+      "b_regularizer": null,
+      "activity_regularizer": null,
+      "init": "uniform",
+      "W_regularizer": null,
+      "name": "Convolution1D",
+      "activation": "relu",
+      "b_constraint": null,
+      "border_mode": "valid",
+      "nb_filter": 64,
+      "input_dim": null,
+      "cache_enabled": true
+    },
+    {
+      "pool_length": 2,
+      "name": "MaxPooling1D",
+      "stride": 2,
+      "border_mode": "valid",
+      "cache_enabled": true
+    },
+    {
+      "output_dim": 70,
+      "inner_activation": "hard_sigmoid",
+      "input_length": null,
+      "return_sequences": false,
+      "name": "LSTM",
+      "activation": "tanh",
+      "init": "glorot_uniform",
+      "inner_init": "orthogonal",
+      "forget_bias_init": "one",
       "cache_enabled": true,
-      "name": "Activation"
+      "input_dim": 64,
+      "stateful": false,
+      "go_backwards": false
+    },
+    {
+      "activity_regularizer": null,
+      "W_regularizer": null,
+      "name": "Dense",
+      "output_dim": 1,
+      "activation": "linear",
+      "W_constraint": null,
+      "init": "glorot_uniform",
+      "b_constraint": null,
+      "b_regularizer": null,
+      "input_dim": null,
+      "cache_enabled": true
+    },
+    {
+      "name": "Activation",
+      "activation": "sigmoid",
+      "cache_enabled": true
     }
   ],
-  "name": "Sequential"
+  "name": "Sequential",
+  "loss": "root_mean_squared_error",
+  "optimizer": {
+    "name": "Adagrad",
+    "lr": 0.009999999776482582,
+    "epsilon": 1e-06
+  },
+  "class_mode": "categorical"
 }

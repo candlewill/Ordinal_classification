@@ -43,13 +43,13 @@ Y_dev = (np.array(Y_dev) + 2) / 4
 Y_test = (np.array(Y_test) + 2) / 4
 
 batch_size = 8
-
+nb_epoch = 1
 model = cnn_lstm(W)
 
 model.compile(loss='rmse', optimizer='adagrad')  # loss function: mse
 print("Train...")
 early_stopping = EarlyStopping(monitor='val_loss', patience=5)
-result = model.fit(X_train, Y_train, batch_size=batch_size, nb_epoch=10, validation_data=(X_valid, Y_dev),
+result = model.fit(X_train, Y_train, batch_size=batch_size, nb_epoch=nb_epoch, validation_data=(X_valid, Y_dev),
                    callbacks=[early_stopping])
 
 score = model.evaluate(X_test, Y_test, batch_size=batch_size)
@@ -60,7 +60,7 @@ predict = model.predict(X_test, batch_size=batch_size).reshape((1, len(X_test)))
 print('Y_test: %s' % str(Y_test))
 print('Predict value: %s' % str(predict))
 
-submit_predict = model.predict(submit_test, batch_size=batch_size).reshape((1, len(X_test)))[0]
+submit_predict = model.predict(submit_test, batch_size=batch_size).reshape((1, len(submit_test)))[0]
 
 pickle.dump((test, submit_predict), open("./tmp/submit.p", 'wb'))
 
