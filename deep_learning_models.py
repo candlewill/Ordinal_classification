@@ -140,8 +140,8 @@ def cnn_gru(W):
 
 
 def b_rnn(W):
-    lstm = LSTM(output_dim=64)
-    gru = GRU(output_dim=64)
+    lstm = LSTM(output_dim=70)
+    gru = GRU(output_dim=70)
     brnn = Bidirectional(forward=lstm, backward=gru)
 
     nb_filter = 64
@@ -161,6 +161,8 @@ def b_rnn(W):
     model.add(brnn)
     model.add(Dense(1))
     model.add(Activation('sigmoid'))
+
+    return model
 
 if __name__ == "__main__":
     pass

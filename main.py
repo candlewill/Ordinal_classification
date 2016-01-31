@@ -38,7 +38,7 @@ Y_test = (np.array(Y_test) + 2) / 4
 
 batch_size = 8
 
-model = b_rnn(W)
+model = cnn_lstm(W)
 
 model.compile(loss='rmse', optimizer='adagrad')  # loss function: mse
 print("Train...")
