@@ -1,8 +1,10 @@
-from deep_learning_models import cnn, lstm, cnn_lstm, cnn_gru, b_rnn
 import pickle
+
 import numpy as np
 from keras.preprocessing import sequence
 from keras.callbacks import EarlyStopping
+
+from deep_learning_models import cnn_lstm
 
 
 def load_pickle(filename):
@@ -53,6 +55,12 @@ print('Test score:', score)
 predict = model.predict(X_test, batch_size=batch_size).reshape((1, len(X_test)))[0]
 print('Y_test: %s' % str(Y_test))
 print('Predict value: %s' % str(predict))
+
+print("Saving model and weights...")
+json_string = model.to_json()
+open('./tmp/keras_model_architecture.json', 'w').write(json_string)
+model.save_weights('./tmp/keras_model_weights.h5')
+print("Model saved.")
 
 from metrics import continuous_metrics
 

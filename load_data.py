@@ -1,7 +1,7 @@
 import csv
 import pickle
+
 import gensim
-import codecs
 
 
 def load_SemEval(filename, type='gold'):
@@ -34,8 +34,12 @@ def load_pickle(filename):
 def load_embeddings(filename, binary=False):
     model = gensim.models.Word2Vec.load_word2vec_format(filename, binary=binary)
     w2v = dict()
+    vocabs = model.vocab.keys()
+    print("Vocabulary size before pre-processing: %s." % len(vocabs))
+
     for key in model.vocab.keys():
         w2v[key] = model[key]
+
     return w2v
 
 

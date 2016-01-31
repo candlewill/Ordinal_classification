@@ -1,14 +1,18 @@
 from string import punctuation
-from load_data import load_SemEval
 import re
 from collections import defaultdict
-import numpy as np
 import os
+
+import numpy as np
+from keras.preprocessing import sequence
+
+from keras.callbacks import EarlyStopping
+
+from load_data import load_SemEval
 from load_data import load_pickle, load_embeddings
 from save_data import dump_picle
-from keras.preprocessing import sequence
 from deep_learning_models import maxlen, cnn
-from keras.callbacks import EarlyStopping
+
 
 def clean_str(sentence):
     """
@@ -77,6 +81,8 @@ def sent2ind(sent, word_idx_map):
     for word in words:
         if word in word_idx_map:
             x.append(word_idx_map[word])
+        else:  # use value 0 to indicate the missing words
+            x.append(0)
     return x
 
 
@@ -159,7 +165,8 @@ def build_ordinal_regression_input():
     texts[keys[1]], scores[keys[1]] = remove_unavailable(texts_dev, scores_dev)
     texts[keys[2]], scores[keys[2]] = remove_unavailable(texts_devtest, scores_devtest)
 
-    data, W = build_keras_input(texts, scores, new=False)
+    data, W = build_keras_input(texts, scores, new=True)
+    exit()
 
     vocabulary_size, dims = W.shape
     print("Vocabulary_size, dims = %s, %s."%W.shape)
@@ -210,7 +217,7 @@ def build_ordinal_regression_input():
     draw_linear_regression(X, np.array(Y_test)[X], np.array(predict)[X], 'Sentence Number', "Sentiment scores",
                            'Comparison of predicted and true scores')
 
-    from visualize import plot_keras, draw_hist
+    from visualize import draw_hist
 
     # plot_keras(result, x_labels='Epoch', y_labels='Loss')
     draw_hist(np.array(Y_test) - np.array(predict), title='Histogram of sentiment scores prediction: ')
