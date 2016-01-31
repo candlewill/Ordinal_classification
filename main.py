@@ -1,4 +1,4 @@
-from deep_learning_models import cnn
+from deep_learning_models import cnn, lstm, cnn_lstm, cnn_gru, b_rnn
 import pickle
 import numpy as np
 from keras.preprocessing import sequence
@@ -32,15 +32,15 @@ print('X_valid shape:', X_valid.shape)
 print('X_test shape:', X_test.shape)
 
 # Convert the sentiment scores from [-2, 2] to [0, 1]
-Y_train = (np.array(Y_train) + 2) / 2
-Y_dev = (np.array(Y_dev) + 2) / 2
-Y_test = (np.array(Y_test) + 2) / 2
+Y_train = (np.array(Y_train) + 2) / 4
+Y_dev = (np.array(Y_dev) + 2) / 4
+Y_test = (np.array(Y_test) + 2) / 4
 
 batch_size = 8
 
-model = cnn(W)
+model = b_rnn(W)
 
-model.compile(loss='mse', optimizer='adagrad')  # loss function: mse
+model.compile(loss='rmse', optimizer='adagrad')  # loss function: mse
 print("Train...")
 early_stopping = EarlyStopping(monitor='val_loss', patience=5)
 result = model.fit(X_train, Y_train, batch_size=batch_size, nb_epoch=10, validation_data=(X_valid, Y_dev),
@@ -67,5 +67,5 @@ draw_linear_regression(X, np.array(Y_test)[X], np.array(predict)[X], 'Sentence N
 
 from visualize import plot_keras, draw_hist
 
-# plot_keras(result, x_labels='Epoch', y_labels='Loss')
+plot_keras(result, x_labels='Epoch', y_labels='MAE Loss')
 draw_hist(np.array(Y_test) - np.array(predict), title='Histogram of sentiment scores prediction: ')
