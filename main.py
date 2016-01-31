@@ -12,7 +12,7 @@ def load_pickle(filename):
     return out
 
 
-maxlen = 140
+maxlen = 32
 
 filename_data, filename_w = './tmp/indexed_data.p', './tmp/Weight.p'
 data = load_pickle(filename_data)

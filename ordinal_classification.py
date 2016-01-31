@@ -4,13 +4,10 @@ from collections import defaultdict
 import os
 
 import numpy as np
-from keras.preprocessing import sequence
-from keras.callbacks import EarlyStopping
 
 from load_data import load_SemEval
 from load_data import load_pickle, load_embeddings
 from save_data import dump_picle
-from deep_learning_models import maxlen, cnn
 from load_data import load_SemEval_test
 
 
@@ -143,7 +140,7 @@ def build_keras_input(texts, scores, test, new=True):
 
     dump_picle(data, filename_data)
     dump_picle(W, filename_w)
-    dump_picle()
+    dump_picle(test_data, test_filename)
     print("Saved: data and W are saved into: %s, and %s." % (filename_data, filename_w))
 
     return (data, W, test_data)
@@ -187,7 +184,7 @@ def build_ordinal_regression_input():
 
     data, W, _ = build_keras_input(texts, scores, test, new=True)
     exit()
-
+    '''
     vocabulary_size, dims = W.shape
     print("Vocabulary_size, dims = %s, %s."%W.shape)
 
@@ -242,6 +239,6 @@ def build_ordinal_regression_input():
     # plot_keras(result, x_labels='Epoch', y_labels='Loss')
     draw_hist(np.array(Y_test) - np.array(predict), title='Histogram of sentiment scores prediction: ')
 
-
+    '''
 if __name__ == "__main__":
     build_ordinal_regression_input()

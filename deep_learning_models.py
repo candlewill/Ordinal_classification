@@ -3,7 +3,6 @@ import numpy as np
 
 np.random.seed(1337)  # for reproducibility
 
-from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers.embeddings import Embedding
@@ -15,7 +14,7 @@ from recurrent import Bidirectional
 
 max_features = 200  # vocabulary size
 embedding_dims = 128  # dimension of word embedding
-maxlen = 140  # max length of a sentence
+maxlen = 32  # max length of a sentence
 
 
 ##############################################################
