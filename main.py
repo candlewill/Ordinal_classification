@@ -45,7 +45,7 @@ Y_dev = (np.array(Y_dev) + 2) / 4
 Y_test = (np.array(Y_test) + 2) / 4
 
 batch_size = 8
-nb_epoch = 5
+nb_epoch = 10
 model = cnn_lstm(W)
 
 model.compile(loss='rmse', optimizer='adagrad')  # loss function: mse

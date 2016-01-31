@@ -111,7 +111,8 @@ def cnn_lstm(W):
                             subsample_length=1))
     model.add(MaxPooling1D(pool_length=pool_length))
     model.add(LSTM(lstm_output_size))
-
+    model.add(Dense(lstm_output_size))
+    model.add(Dropout(p))
     model.add(Dense(1))
     model.add(Activation('sigmoid'))
 
