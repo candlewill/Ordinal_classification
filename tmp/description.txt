@@ -20,7 +20,7 @@ Two files in the zip file: YZU-NLP-C.output, YZU-NLP-C.description
 
 - 5.1 Core approach
 
-We train LSTM-CNN model to capture the sentiment score of tweets. A linear regression lay is on the top of the model.
+We train LSTM-CNN model to capture the sentiment score of tweets. A linear regression layer is on the top of the model.
 
 - 5.2 Supervised or unsupervised
 
@@ -28,20 +28,98 @@ Supervised
 
 - 5.3 Important/interesting/novel features used
 
-All the features are learned by LSTM-CNN model automacticly
+All the features are learned by LSTM-CNN model automatically. We did not use other lexicon or n-gams features.
 
 - 5.4 Important/interesting/novel tools used
 
+Keras package is used to build our model, which can be speed up with a GPU. Pre-trained word vectors from GloVe are used as initial parameters of the embedding layer in our model.
+
 - 5.5 Significant data pre/post-processing
+
+All the tweets are lower cased and all punctuation in sentence are removed.
 
 - 5.6 Other data used (outside of the provided)
 
+Vader Twitter dataset [1] is used as additional training data, which containing 4,200 tweets annotated with sentiment ratings in [-4, 4] range.
+
 - 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+The downloaded gold training set contains 654 “Not Available” tweets, which are directly removed when training. 
 
 - 5.8 Did you participate in SemEval-2013 task 2?
 
+NO
+
 - 5.9 Did you participate in SemEval-2014 task 9?
+
+NO
 
 - 5.10 Did you participate in SemEval-2015 task 10?
 
+NO
+
 6 References (if applicable)
+
+[1] Hutto, C. J., & Gilbert, E. (2014, May). Vader: A parsimonious rule-based model for sentiment analysis of social media text. In Eighth International AAAI Conference on Weblogs and Social Media.1. Team ID
+
+YZU-NLP
+
+2. Team affiliation
+
+Yuan Ze University, Taoyuan, Taiwan; Yunnan University, Kunming, China
+
+3. Contact information
+
+Liang-Chih Yu, Email: lcyu@saturn.yzu.edu.tw
+Yunchao He, Email: yunchaohe@gmail.com
+
+4. Submission
+
+Zip file name: YZU-NLP-SemEval2016-Task4-C.zip
+Two files in the zip file: YZU-NLP-C.output, YZU-NLP-C.description
+
+5. System specs
+
+- 5.1 Core approach
+
+We train LSTM-CNN model to capture the sentiment score of tweets. A linear regression layer is on the top of the model.
+
+- 5.2 Supervised or unsupervised
+
+Supervised
+
+- 5.3 Important/interesting/novel features used
+
+All the features are learned by LSTM-CNN model automatically. We did not use other lexicon or n-gams features.
+
+- 5.4 Important/interesting/novel tools used
+
+Keras package is used to build our model, which can be speed up with a GPU. Pre-trained word vectors from GloVe are used as initial parameters of the embedding layer in our model.
+
+- 5.5 Significant data pre/post-processing
+
+All the tweets are lower cased and all punctuation in sentence are removed.
+
+- 5.6 Other data used (outside of the provided)
+
+Vader Twitter dataset [1] is used as additional training data, which containing 4,200 tweets annotated with sentiment ratings in [-4, 4] range.
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+The downloaded gold training set contains 654 “Not Available” tweets, which are directly removed when training.
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+NO
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+NO
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+NO
+
+6 References (if applicable)
+
+[1] Hutto, C. J., & Gilbert, E. (2014, May). Vader: A parsimonious rule-based model for sentiment analysis of social media text. In Eighth International AAAI Conference on Weblogs and Social Media.
