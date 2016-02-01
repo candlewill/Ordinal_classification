@@ -28,6 +28,7 @@ def clean_str(sentence):
 def get_vocab(corpus):
     vocab = defaultdict(int)
     for sent in corpus:
+        # print(sent)
         for word in clean_str(sent).split():
             vocab[word] += 1
     print('Vocabulary Size is: %s. ' % len(vocab))
@@ -178,6 +179,14 @@ def build_ordinal_regression_input():
 
     scores_train = scores_train + [i - 3 for i in scores_old]  # from [1, 5] to [-2, 2]
     texts_train = texts_train + texts_old
+
+    # Use additional data
+    from additional_data import additional
+
+    additional_text, additional_scores = additional()
+
+    scores_train = scores_train + additional_scores
+    texts_train = texts_train + additional_text
 
     keys = ["train", "dev", "devtest"]
     texts, scores = dict(), dict()
