@@ -28,6 +28,8 @@ Supervised
 
 - 5.3 Important/interesting/novel features used
 
+All the features are learned by LSTM-CNN model automacticly
+
 - 5.4 Important/interesting/novel tools used
 
 - 5.5 Significant data pre/post-processing
