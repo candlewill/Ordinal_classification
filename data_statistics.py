@@ -41,10 +41,15 @@ def common_topics():
     print("Common terms between train and devtest set, nb: %s, terms: %s"%(len(set(Train) & set(Devtest)), sorted(set(Train) & set(Devtest))))
     print("Common terms between dev and devtest set, nb: %s, terms: %s"%(len(set(Devtest) & set(Dev)), sorted(set(Devtest) & set(Dev))))
 
-
+def testdata_statistics():
+    filename = "./resources/TEST data/SemEval2016-task4-test.subtask-BCDE.txt"
+    topics, scores, texts = load_SemEval(filename)
+    SemEval_statistics(topics, scores, texts)
 
 
 if __name__ == "__main__":
+    testdata_statistics()
+    exit()
     filenames = ["dev_gold.tsv", "devtest_gold.tsv", "devtest_input.tsv","train_gold.tsv"]
     file_dir = "./resources/full_tweets/"
 
