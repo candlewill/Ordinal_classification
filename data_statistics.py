@@ -42,7 +42,7 @@ def common_topics():
     print("Common terms between dev and devtest set, nb: %s, terms: %s"%(len(set(Devtest) & set(Dev)), sorted(set(Devtest) & set(Dev))))
 
 def testdata_statistics():
-    filename = "./resources/TEST data/SemEval2016-task4-test.subtask-BCDE.txt"
+    filename = "./resources/TEST data/SemEval2016_Task4_test_datasets/SemEval2016-task4-test.subtask-BCDE.txt"
     topics, scores, texts = load_SemEval(filename)
     SemEval_statistics(topics, scores, texts)
 
