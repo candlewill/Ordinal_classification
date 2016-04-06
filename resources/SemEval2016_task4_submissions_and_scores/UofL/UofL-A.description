@@ -1,0 +1,34 @@
+
+	1. UofL
+
+	2. University of Louisville
+
+	3. oaabde01@louisville.edu
+
+	4. UofL-A.zip
+
+	5. System specs
+
+	- 5.1 Wisdom of crowds, Transfer Learning, Word2vec,SVM and Logistic Regression
+
+	- 5.2 Supervised 
+
+	- 5.3 Features like word2vec vectors. I have calculated the average word2vec word vectors of each tweet and added it as a feature. Also I have used external amazon product review data from another
+	      domain to train my word2vec models that I used in building the feature vectors of my tweets.
+
+	- 5.4 I have used Graph Lab.
+
+	- 5.5 All the usual twitter Data Preprocessing, including but not limited to stemming, stop words removal, replacing positive words with $po and negative words with $ne using Bing Liu's lexicon,
+	      trimming,...etc 
+
+	- 5.6 Amazon Product review data (around 150,000 reviews) just for training the word2vec model that I later used in calculating the average of all word vectors in every tweet.
+
+	- 5.7 I have used this year's twitter training set and last year's which were a little over 11,000 tweets.
+
+	- 5.8 No
+
+	- 5.9 Yes
+
+	- 5.10 No.
+
+	

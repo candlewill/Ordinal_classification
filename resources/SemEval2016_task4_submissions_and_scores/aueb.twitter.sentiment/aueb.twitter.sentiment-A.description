@@ -1,0 +1,34 @@
+1. aueb.twitter.sentiment
+
+2. Department of Informatics, Athens University of Economics and Business
+
+3. p3110173@dias.aueb.gr
+
+4. aueb.twitter.sentiment.zip
+
+5. System specs
+
+- 5.1 1 stage approach with weighted ensemble of classifiers
+
+- 5.2 Supervised
+
+- 5.3 GloVe word embeddings for Twitter and weighted ensemble of classifiers
+
+- 5.4 None
+
+- 5.5 CMU ARK Twitter Part-of-Speech Tagger, Twokenize tokenizer
+	  Minqing Hu, Afinn, NRC, SentiWordNet, MPQA Lexicons
+	  Lexicons created by SemEval-2013 data
+	  
+- 5.6 None
+
+- 5.7 19305 tweets
+
+- 5.8 No
+
+- 5.9 No
+
+- 5.10 No
+
+6 	- R. M. Karampatsis, J. Pavlopoulos and P. Malakasiotis, "AUEB: Two Stage Sentiment Analysis of Social Network Messages". Proceedings of the Eighth International Workshop on 		Semantic Evaluation (SemEval 2014), Dublin, Ireland, pp. 114-118, 2014.
+	- P. Malakasiotis, R. M. Karampatsis, K. Makrynioti and J. Pavlopoulos, "nlp.cs.aueb.gr: Two Stage Sentiment Analysis". Second Joint Conference on Lexical and Computational Semantics (*SEM), Volume 2: Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013), Atlanta, Georgia, USA, pp. 96-106, 2013.

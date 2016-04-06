@@ -1,0 +1,48 @@
+1. Team ID : SteM
+
+2. Team affiliation : Sabanci University, Marmara University, Otto-von-Guericke University Magdeburg
+
+3. Contact information : stefan@sabanciuniv.edu
+
+4. Submission : SteM-A.zip
+
+5. System specs
+
+- 5.1 Core approach : Informal tweet conversion to more formal tweets and then
+ using various tools working on formal texts to extract
+ our features. Each tweet is represented by our 28 custom features, thus we
+ aren't using bag-of-words. We also apply feature reduction techniques
+ (Categorical proportional difference, see references) to
+ make our extracted features more meaningful by discarding certain words.
+ At the end we apply active learning to remove unreliable/noisy instances
+ from our training set. 
+
+- 5.2 Supervised or unsupervised : Supervised
+
+- 5.3 Important/interesting/novel features used : Active Learning + different classifiers for different feature subsets + Feature set reduction using Categorical Proportional Difference (CPD)
+
+- 5.4 Important/interesting/novel tools used : AlchemyAPI, Stanford CoreNLP tools, SenticWordNet
+
+- 5.5 Significant data pre/post-processing : polarity extraction
+keeping negation handling in mind and also dealing with diminishers and
+intensifiers, POS-tagging, entity-recognition, emoticons, hash-tag chunking, Spell check,
+
+- 5.6 Other data used (outside of the provided) : None
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data) : 905 tweets (we discarded the rest deliberately)
+
+- 5.8 Did you participate in SemEval-2013 task 2? : No
+
+- 5.9 Did you participate in SemEval-2014 task 9? : No
+
+- 5.10 Did you participate in SemEval-2015 task 10? : No
+
+6. References
+@inproceedings{simeon2008categorical,
+  title={Categorical proportional difference: A feature selection method for text categorization},
+  author={Simeon, Mondelle and Hilderman, Robert},
+  booktitle={Proceedings of the 7th Australasian Data Mining Conference-Volume 87},
+  pages={201--208},
+  year={2008},
+  organization={Australian Computer Society, Inc.}
+}

@@ -1,0 +1,73 @@
+1. Team ID
+
+203
+
+2. Team affiliation
+
+Qatar Computing Research Institute
+
+3. Contact information
+
+wgao@qf.org.qa
+
+4. Submission, i.e., ZIP file name
+
+203_file_System_output.txt
+
+5. System specs
+
+- 5.1 Core approach
+
+We devised a novel algorithm for ordinal quantification whose main ingredients
+are: i) n binary classifiers, where the j-th classifier returns the probability
+for an example to belong to classes x <= j; ii) an algorithm for arranging the
+n classifiers into a hierarchical structure, i.e. a "quantification" tree. 
+The tree is built using information on the ordering of the target classes and
+provides a way to combine the probabilities of the binary classifiers to get
+the probability for each example to belong to any of the n+1 target classes. 
+Finally, a Probabilistic Classify and Count (PCC) technique is used to combine
+the probabilities of the examples to get a quantification value for each class.
+
+- 5.2 Supervised or unsupervised
+
+Supervised
+
+- 5.3 Important/interesting/novel features used
+
+- 5.4 Important/interesting/novel tools used
+
+an algorithm for arranging the
+n classifiers into a hierarchical structure, i.e. a "quantification" tree. 
+The tree is built using information on the ordering of the target classes and
+provides a way to combine the probabilities of the binary classifiers to get
+the probability for each example to belong to any of the n+1 target classes. 
+
+- 5.5 Significant data pre/post-processing
+
+Feature vectors are built using the approach described in (Kiritchenko et al., 2014, Section
+5.2.1).
+
+- 5.6 Other data used (outside of the provided)
+
+No other data have been used.
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+We used the training, development, devtest datasets provided by the organizers.
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+No
+
+6 References (if applicable)
+
+(Kiritchenko et al., 2014) Svetlana Kiritchenko, Xiaodan Zhu, and Saif M. Mohammad. 2014. Sentiment analysis of short informal texts. Journal of Artificial Intelligence Research, 50:723–762.
+

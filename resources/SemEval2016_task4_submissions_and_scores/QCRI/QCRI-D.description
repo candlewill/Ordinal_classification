@@ -1,0 +1,69 @@
+1. Team ID
+
+QCRI
+
+2. Team affiliation
+
+Qatar Computing Research Institute
+
+3. Contact information
+
+Wei Gao, wgao@qf.org.qa
+Giovanni Da San Martino, gmartino@qf.org.qa
+Fabrizio Sebastiani, fsebastiani@qf.org.qa
+
+4. Submission, i.e., ZIP file name
+
+QCRI-D.zip
+
+5. System specs
+
+- 5.1 Core approach
+
+We used Probabilistic Classify and Count (PCC) (Esuli and Sebastiani, 2015), which is a variant of Classify and Count (CC) consists in generating a classifier from the training set (train+dev+devtest), classifying the objects in test set $T_e$ (test), and computing $p_{T_e}(c)$ as the expected fraction of tweets predicted to belong to c. If by $p(c_j|x)$ we indicate the posterior probability, i.e., the probability of membership in c of test tweet x as estimated by the classifier, by $E[x]$ we indicate the expected value of $x$, this corresponds to computing $\hat{p}_{Te}^{PCC}(c) = \frac{1}{|Te|}\sum_{x\in Te}p(c|x)$. The rationale of PCC is that posterior probabilities contain richer information than binary decisions, which are usually obtained from posterior probabilities by thresholding.
+
+- 5.2 Supervised or unsupervised
+
+Supervised
+
+- 5.3 Important/interesting/novel features used
+
+For building vectorial representations of tweets, we have followed the approach discussed in Kiritchenko et al. (2014) for Twitter sentiment classification task.
+
+
+- 5.4 Important/interesting/novel tools used
+
+We used LibSVM for the classifier.
+
+- 5.5 Significant data pre/post-processing
+
+The text is preprocessed by normalizing URLs and mentions of users to the constants http://someurl and @someuser, resp., after which tokenisation and POS tagging is performed. We preprocess the tweets using CMU Twitter NLP tool (http://www.ark.cs.cmu.edu/TweetNLP/) before feature extraction.
+
+
+- 5.6 Other data used (outside of the provided)
+
+The features are derived from both automatically generated and manually generated sentiment lexicons; for these features, we use the same sentiment lexicons as used in (Kiritchenko et al., 2014), which are all publicly available.
+
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+7088
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+no
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+no
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+no
+
+6 References (if applicable)
+
+Andrea Esuli and Fabrizio Sebastiani. Optimizing text quantifiers for multivariate loss functions. ACM Transactions on Knowledge Discovery and Data, 9(4):Article 27, 2015.
+
+Svetlana Kiritchenko, Xiaodan Zhu, and Saif M. Mohammad. Sentiment analysis of short informal texts. Journal of Artificial Intelligence Research, 50:723-762, 2014.
+

@@ -1,0 +1,31 @@
+1. Team ID
+CICBUAPnlp
+2. Team affiliation
+Instituto Politécnico Nacional y Benemérita Universidad Autónoma de Puebla
+3. Contact information
+helena.adorno@gmail.com	
+4. Submission, i.e., ZIP file name
+CICBUAPnlp-task4.zip
+5. System specs
+- 5.1 Core approach
+We used an SVM algorithm for the classification process. For the features extracction we used the Doc2Vec implementation in Gensim in order to obtain the distributed representation of tweets.
+- 5.2 Supervised or unsupervised
+Supervised
+- 5.3 Important/interesting/novel features used
+Distributed representation of tweets 
+- 5.4 Important/interesting/novel tools used
+Doc2Vec
+- 5.5 Significant data pre/post-processing
+We used a social media lexicon (dictionaries of emoticon, slangs and abbreviations) for the pre-procesing phase.
+- 5.6 Other data used (outside of the provided)
+Some tweets of the Stanford Sentiment Analisys Dataset (Negative and Positive expansion)
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+We used the train of 2014 with 6124 tweets (extracting the tweets with the objective class), we expanded the train 
+with some tweest of this year train (the ones we could download) and with Stanford Sentiment Analisys Dataset. In total 11377 tweets
+- 5.8 Did you participate in SemEval-2013 task 2?
+NO
+- 5.9 Did you participate in SemEval-the 2014 task 9?
+NO
+- 5.10 Did you participate in SemEval-2015 task 10?
+NO
+6 References (if applicable)

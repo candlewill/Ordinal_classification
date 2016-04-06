@@ -1,0 +1,38 @@
+1. INESC-ID
+
+2. INESC-ID Lisboa / Instituto Superior Técnico de Lisboa
+
+3. Silvio Amir Alves Moreira - samir@inesc-id.pt
+
+4. submit.txt
+
+5. System specs
+
+- 5.1 Our approach is based on Astudillo et al. (2015) Non-Linear Subspace Embedding model. To this end we first leverage a large corpus of 56 Million unlabeled tweets to induce word embeddings. Then, we train a neural network to jointly learn a subspace projection matrix, transforming the word representations into task-specific representations, and estimate the parameters of a non-linear classifier.
+
+- 5.2 Supervised
+
+- 5.3 Subspace adapted word embedding vectors
+
+- 5.4 Python 2.7 and Theano library
+
+- 5.5 simple tokenization and normalization of the messages
+
+- 5.6 The word embeddings were pre-trained with a collection of 56 Million unlabeled tweets using Ling et al. (2015) Structured Skip-Gram model.
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+9864
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+yes
+- 5.9 Did you participate in SemEval-2014 task 9?
+yes
+- 5.10 Did you participate in SemEval-2015 task 10?
+yes
+
+6 References 
+
+Ling, W., Dyer, C., Black, A., & Trancoso, I. (2015). Two/too simple adaptations of word2vec for syntax problems. Proceedings of the North American Chapter of the Association for Computational Linguistics (NAACL), Denver, CO.
+
+Astudillo, R. F., Amir, S., Lin, W., Silva, M., & Trancoso, I. (2015). Learning Word Representations from Scarce and Noisy Data with Embedding Sub-spaces. Proceedings of the Association for Computational Linguistics (ACL), Beijing, China.

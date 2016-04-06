@@ -1,0 +1,44 @@
+1. Team ID
+UniPI
+
+2. Team affiliation
+Università di Pisa
+
+3. Contact information
+Giuseppe Attardi
+attardi@di.unipi.it
+
+4. Submission, i.e., ZIP file name
+unipi-task4.zip
+
+5. System specs
+
+- 5.1 Core approach
+Deep Learning using convolutional neural network
+
+- 5.2 Supervised or unsupervised
+semi-supervised
+
+- 5.3 Important/interesting/novel features used
+
+- 5.4 Important/interesting/novel tools used
+
+- 5.5 Significant data pre/post-processing
+Tweet tokenizer
+
+- 5.6 Other data used (outside of the provided)
+None
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+15526
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+
+6 References (if applicable)

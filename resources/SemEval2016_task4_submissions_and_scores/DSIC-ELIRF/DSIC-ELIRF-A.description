@@ -1,0 +1,39 @@
+1. Team ID
+DSIC-ELIRF
+2. Team affiliation
+DSIC-ELIRF
+3. Contact information
+Name: Victor Martinez Morant
+email: vmartinez2@dsic.upv.es
+4. Submission, i.e., ZIP file name
+results.txt
+5. System specs
+
+- 5.1 Core approach
+	Extracting features such as N-grams, Polarity Lexicon, Skip-grams, Amount of Hashtags, Amount of ALLCAPS, Amount of elongated words and Sentiment Lexicon and using them to feed a SVM classifier.
+- 5.2 Supervised or unsupervised
+Supervised
+- 5.3 Important/interesting/novel features used
+
+- 5.4 Important/interesting/novel tools used
+
+- 5.5 Significant data pre/post-processing
+Polarity Lexicons, Sentiment Lexicon
+- 5.6 Other data used (outside of the provided)
+No other data used
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+The amount of tweets was: 5510
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+
+6 References (if applicable)
+Zhu, X., Kiritchenko, S., & Mohammad, S. M. (2014, August). Nrc-canada-2014: Recent improvements in the sentiment analysis of tweets. In Proceedings of the 8th International Workshop on Semantic Evaluation (SemEval 2014) (pp. 443-447).
+
+Pla, F., & Hurtado, L. F. (2014). Sentiment analysis in Twitter for spanish. In Natural Language Processing and Information Systems (pp. 208-213). Springer International Publishing.
+
+Mayte Giménez, Ferran Pla, Lluís-F. Hurtado
+ELiRF: A Support Vector Machine Approach for Sentiment Analysis Tasks in Twitter at SemEval-2015. In Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval 2015), pages 574–581, Association for Computational Linguistics. Denver, Colorado, June 4-5, 2015. (pdf)

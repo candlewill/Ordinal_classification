@@ -1,0 +1,6 @@
+	positive: P=0.824, R=0.932, F1=0.875
+	negative: P=0.558, R=0.300, F1=0.390
+
+AvgR=0.616, AvgF1=0.633, Acc=0.792
+
+	OVERALL SCORE : 0.616

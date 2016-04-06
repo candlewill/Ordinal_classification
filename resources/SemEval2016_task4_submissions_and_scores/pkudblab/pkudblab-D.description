@@ -1,0 +1,49 @@
+1. Team ID
+pkudblab
+
+2. Team affiliation
+Peking University
+
+3. Contact information
+Wan Wei, morningweiwan@163.com
+Xiao Zhang, pekingzxwork@163.com
+Xuqin Liu, xuqinliu@pku.edu.cn
+Yi Li, liyi193328@163.com
+
+4. Submission, i.e., ZIP file name
+pkudblab-SE16-task4-BD.zip
+
+5. System specs
+
+	- 5.1 Core approach
+	Using deep convolutional neural network, recording the result of the last layer - softmax layer of each test sentence for multiple times, averaging each class of sentences belong to the same topic. 
+
+	- 5.2 Supervised or unsupervised
+	Supervised
+
+	- 5.3 Important/interesting/novel features used
+	Feature extraction handled by the convolutional architecture
+
+	- 5.4 Important/interesting/novel tools used
+		 Word2vec (Mikolov et al, 2013b)
+
+	- 5.5 Significant data pre/post-processing
+	Before entering the neural network:
+	Replace each word in the sentence with pre-trained vector (see above). If it is not found in the pre-trained word2vec bin file, then replace it with random or zero vector. 
+
+	- 5.6 Other data used (outside of the provided)
+	No
+
+	- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+	6421
+
+	- 5.8 Did you participate in SemEval-2013 task 2?
+	No
+
+	- 5.9 Did you participate in SemEval-2014 task 9?
+	No
+
+	- 5.10 Did you participate in SemEval-2015 task 10?
+	No
+
+6 References (if applicable)

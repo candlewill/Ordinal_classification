@@ -1,0 +1,25 @@
+TWEESTER - paper 152
+
+
+Elisavet Palogiannidi, School of ECE, Technical University of Crete, epalogiannidi@isc.tuc.gr
+Athanasia Kolovou, Department of Informatics, University of Athens, akolovou@di.uoa.gr
+Fenia Christopoulou, School of ECE, National Technical University of Athens, el10136@mail.ntua.gr
+Filippos Kokkinos, School of ECE, National Technical University of Athens,el11142@mail.ntua.gr
+Elias Iosif, School of ECE, National Technical University of Athens, iosife@central.ntua.gr
+Nikolaos Malandrakis, Signal Analysis and Interpretation Laboratory (SAIL), malandra@usc.edu
+Haris Papageorgiou, Institute for Language & Speech Processing - ILSP,xaris@ilsp.athena-innovation.gr
+Shrikanth Narayanan, Signal Analysis and Interpretation Laboratory (SAIL), shri@sipi.usc.edu
+Alexandros Potamianos, School of ECE, National Technical University of Athens , apotam@central
+
+System Specs:
+
+The submitted system for Subtask A contains both supervised and unsupervised systems and the final decision is taken by a late fusion scheme.
+Specifically we use lexicon, CNN and topic modeling -based models. 
+Affective features were extracted also using a mixture of semantic models over clusters with semantically related sentences (topic modeling).
+The main lexicon-based model (the enhancement of a system submitted on the corresponding task of SemEval2014) is augmented by some
+prepossessing steps such as Multi-Words Expressions detection, hashtag expansion, negation propagation, word2vec features and pair-
+wise semantic similarity on tweet level. We also used the opensource system Webis, that won the corresponding task of SemEval 2015.
+Affective features were extracted using a mixture of semantic models over clusters with semantically related sentences. 
+The subsystems were trained on the data provided by SemEval-2016 for task A and by training datasets provided for SemEval-2013 (Semeval training data for 2016 : 5460 tweets, Semeval training data from 2013 : 9684 teweets). Dataset sentiment 140 dataset (http://help.sentiment140.com/for-students/) and it was used to train the CNN.
+A web harvested corpus of 116M sentences and a 115M tweet corpus that we created were also used for the topic modeling and the creation of affective lexica.
+Some of the team members have participated in SemEval-2013 task 2 and SemEval-2014 task 9.

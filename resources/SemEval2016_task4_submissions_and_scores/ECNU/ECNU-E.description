@@ -1,0 +1,16 @@
+1. Team ID: ECNU
+2. Team affiliation: East China Normal University
+3. Contact information: mlan@cs.ecnu.edu.cn; 10122130215@ecnu.cn; 51131201039@ecnu.cn
+4. Submission: ECNU_T4_E
+5. System specs  
+- 5.1 Core approach: liblinear with multiple features
+- 5.2 Supervised or unsupervised: supervised
+- 5.3 Important/interesting/novel features used:N-grams,N-char,pos,sentiment word vector,brown cluster,etc.
+- 5.4 Important/interesting/novel tools used: liblinear; stanford CoreNLP tools; CMU TweetParser.
+- 5.5 Significant data pre/post-processing: tokenization, replace slangs, replace elongated.
+- 5.6 Other data used (outside of the provided): NPC140 auto-labeled tweet for training sentiment word
+vector: Several sentiment lexicons,e.g., BL, MPQA, NRCEmotion, NRCHashtag,etc.
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data): 9410
+- 5.8 Did you participate in SemEval-2013 task 2? Yes
+- 5.9 Did you participate in SemEval-2014 task 9? Yes
+- 5.10 Did you participate in SemEval-2015 task 10? Yes

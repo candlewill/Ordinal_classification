@@ -1,0 +1,36 @@
+	1. Team ID: NTNUSentEval
+
+	2. Team affiliation: Norwgian University of Science and Technology
+
+	3. Contact information: valerijf@stud.ntnu.no
+
+	4. Submission, i.e., ZIP file name:
+		NTNUSentEval-A.zip
+		Containing:
+			NTNUSentEval-A.description
+			NTNUSentEval-A.output
+
+	5. System specs
+
+	- 5.1 Core approach: Support Vector Machine using ScikitLearn's Feature Union.
+
+	- 5.2 Supervised or unsupervised: Supervised
+
+	- 5.3 Important/interesting/novel features used: Word n-grams, Character n-grams, Sentiment Lexica, Word Clusters, Part-of-Speech, Emoticons, Punctuation, VADER Sentiment Analysis.
+
+	- 5.4 Important/interesting/novel tools used: ScikitLearn, Gate TwitieTagger and VADER Sentiment Analysis. 
+
+	- 5.5 Significant data pre/post-processing: lowercase, no emoticons, no username, no RT-tag, no URL, no hashsign, no hashtag, limit repeated use of characters to three, remove non alphabetic characters. Different pre-processing for each feature. 
+
+	- 5.6 Other data used (outside of the provided): Lexica and Word Cluster.
+
+	- 5.7 Size of the training Twitter data used (some teams could only download part of the data): 8748 tweets. 
+
+	- 5.8 Did you participate in SemEval-2013 task 2: No
+
+	- 5.9 Did you participate in SemEval-2014 task 9: No
+
+	- 5.10 Did you participate in SemEval-2015 task 10: No
+	
+	6 References (if applicable)
+	

@@ -1,0 +1,63 @@
+1. Team ID
+
+LyS
+
+2. Team affiliation
+
+Universidade da Coruña (Spain) and Universidade de Vigo (Spain)
+
+3. Contact information
+
+david.vilares@udc.es
+
+4. Submission, i.e., ZIP file name
+
+LYS-task4-BD.zip
+
+5. System specs
+
+- 5.1 Core approach
+
+We train a deep neural network (Convolutional Neural Network) to then extract the hidden activation values (in particular, the values just before the output layer), that are used together with linguistic features as input to feed a support vector machine (liblinear).
+ 
+- 5.2 Supervised or unsupervised
+
+Supervised
+
+- 5.3 Important/interesting/novel features used
+
+(1) Hidden activation values of the CNN, (2) features extracted from several lexica (Liu's lexicon, NRC lexica [1], psychometric dictionaries [2] and SFU dictionaries [3] ) and (3) the last word and psychometric properties of the last token of the sentence.
+
+- 5.4 Important/interesting/novel tools used
+
+Keras (http://keras.io/), Glove (http://nlp.stanford.edu/projects/glove/) and Weka (https://weka.wikispaces.com/)
+
+- 5.5 Significant data pre/post-processing
+
+ No relevant preprocessing apart from some generic terms (emoticons, URL's, ...) that are normalized to match the glove vectors identifiers (<url>, <sadface>, <smile>,...)
+
+- 5.6 Other data used (outside of the provided)
+
+We downloaded a collection of subjective tweets to try pretraining on our deep neural network, but we did not achieve significant improvements, so it was not finally used for these tasks.
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+Training set '16 + Dev set '16 = 5136
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+Yes
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+No
+
+6 References (if applicable)
+
+[1] Mohammad, S. M., Kiritchenko, S., & Zhu, X. (2013, June). NRC-Canada: Building the state-of-the-art in sentiment analysis of tweets. In Second Joint Conference on Lexical and [5] Computational Semantics (* SEM) (Vol. 2, pp. 321-327).
+[2] Pennebaker, J. W., Francis, M. E., & Booth, R. J. (2001). Linguistic inquiry and word count: LIWC 2001. Mahway: Lawrence Erlbaum Associates, 71, 2001.
+[3] Taboada, M., Brooke, J., Tofiloski, M., Voll, K., & Stede, M. (2011). Lexicon-based methods for sentiment analysis. Computational linguistics, 37(2), 267-307.

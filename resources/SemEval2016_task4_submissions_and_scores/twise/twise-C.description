@@ -1,0 +1,64 @@
+1. Team ID
+twise
+
+2. Team affiliation
+University of Grenoble-Alpes
+
+3. Contact information
+Georgios Balikas
+e-mail: georgios.balikas@imag.fr
+
+4. Submission, i.e., ZIP file name
+twise.zip
+
+5. System specs
+
+- 5.1 Core approach
+The goal was to build an ensemble learning approach using two layers. In the first layer different classifiers are trained on the same data representation. In the second layer, a classifier is trained on the probabilistic outputs of the learners of the first layer. The submitted predictions are those of the second layer classifier. 
+
+- 5.2 Supervised or unsupervised
+A supervised learning method was applied.
+
+
+- 5.3 Important/interesting/novel features used
+We split the features in two types: 
+    - (i) n-gram features that represent the raw content of tweets, and
+    - (ii) lexical or hard-coded features that use semantic lexicons and features such as POS tags and punctuation counts which are used in the relevant bibliography and in past SemEval challenges.
+
+For the group of features (i) instead of relying in a bag-of-words encoding of the n-grams n \in [1,4], we first used a hashing function to represent them in a vectorial space of pre-defined dimension. This improved the performance on the validation test and reduced the complexity of the problem. Hence, we had one way of representing the feaure set (i) and one way of representing feature set (ii). The concatenation of those two representations of features set (i) and (ii) is the inputs of a Logistic Regressions which in our local validation performed better than SVMs. The logistic regression uses the lbfgs solver and the mutli-class problem is solved using the multinomial approach.
+
+- 5.4 Important/interesting/novel tools used
+In terms of tools we used standard implementations of classifiers but we investigated in depth the effect of the different multi-class strategies and the different solvers (liblinear, newton-cg etc.). We also found that due to the fact that the problem was unbalanced, weighting the classes benefited our approach.
+
+- 5.5 Significant data pre/post-processing
+We report two interesting pre-processing steps we used: the Hashing function that reduced the dimensionality and an a-power transformation on the outputs of the hashing function. Both helped to improve our performance. [as in twice-A.description]
+
+- 5.6 Other data used (outside of the provided)
+The semantic lexicons that have been used in the past SemEval challenges and the distributed representations of [citation 2]
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+Training: 5,482 tweets
+Development + DevTest: 3588 tweets
+In the submission, after tuning the parameters on both the dev and devtest, we retrained using the whole data.
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No.
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No.
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+No.
+
+6 References (if applicable)
+    1. Sentiment analysis of short informal texts
+        S. Kiritchenko, X. Zhu, SM. Mohammad
+        JAIR 2014
+    2. Supervised term weighting for automated text categorization
+        F. Debole, F. Sebastiani 
+        Text mining and its applications, 2004 - Springer
+    3. Aggregating Local Image Descriptors into Compact Codes
+        Jegou, H. and Perronnin, F. and Douze, M. and Sanchez, J. and Perez, P. and Schmid, C.
+        IEEE Transactions on Pattern Analysis and Machine Intelligence
+
+

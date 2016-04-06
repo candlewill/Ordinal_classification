@@ -1,0 +1,65 @@
+1. Team ID
+
+LyS
+
+2. Team affiliation
+
+Universidade da Coruña (Spain) and Universidade de Vigo (Spain)
+
+3. Contact information
+
+yerai.doval@udc.es
+
+4. Submission, i.e., ZIP file name
+
+LYS-task4.zip
+
+5. System specs
+
+- 5.1 Core approach
+
+Through structured prediction using SVM for Multivariate Performance Measures learning algorithm [1][2] and Kullback-Leibler Divergence (KLD) as the loss function [3]
+
+- 5.2 Supervised or unsupervised
+
+Supervised
+
+- 5.3 Important/interesting/novel features used
+
+Parameters from the hidden layers of a convolutional neural network trained for instance polarity classification (taskC) as features in our SVM training process.
+
+- 5.4 Important/interesting/novel tools used
+
+SVMperf (https://www.cs.cornell.edu/People/tj/svm_light/svm_perf.html) and extension module which enables it to work with KLD (http://hlt.isti.cnr.it/quantification).
+
+- 5.5 Significant data pre/post-processing
+
+ No relevant preprocessing apart from some generic terms (emoticons, URL's, ...) that are normalized to match the glove vectors identifiers (<url>, <sadface>, <smile>,...) that were used for taskC to extract the hidden activation values.
+
+- 5.6 Other data used (outside of the provided)
+
+None
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+
+ Training set:  5478 (Training set '16) + 1831 (Dev set '16) = 7309
+
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+Yes
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+No
+
+6 References (if applicable)
+
+[1] Esuli, A., & Sebastiani, F. (2015). Optimizing text quantifiers for multivariate loss functions. ACM Transactions on Knowledge Discovery and Data, 9 (4), Article 27.
+[2] Thorsten Joachims. 2005. A support vector method for multivariate performance measures. In Proceedings of the 22nd International Conference on Machine Learning (ICML’05). 377–384.
+[3] Thomas M. Cover and Joy A. Thomas. 1991. Elements of Information Theory. John Wiley & Sons, New York, NY.

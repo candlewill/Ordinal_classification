@@ -1,0 +1,29 @@
+1. SwissCheese
+	
+2. ETH Zürich
+
+3. Jan Deriu: jderiu@student.ethz.ch
+
+4. SwissCheeseSub.zip
+
+5.
+For this submission, we first trained several different neural nets creating
+various models. 
+These models were combined using a random forest in order to gain better
+robustness.
+We trained several different convolutional neural nets by first doing a
+distant-supervised phase, 
+where we used emoticons as labels. This was done using up to 90M tweets.
+In a second phase, we used the provided supervised data (train + dev 2013 +
+2016 data) to further train the model.
+The CNN was initialized using custom made word2vec embeddings based on these
+90M tweets.
+The neural nets differed in their choice of filter shapes, pooling shapes and
+usages of hidden layers.
+We used Theano to create our nnet.
+
+- 5.8 Did you participate in SemEval-2013 task 2? No
+
+- 5.9 Did you participate in SemEval-2014 task 9? No 
+
+- 5.10 Did you participate in SemEval-2015 task 10? No

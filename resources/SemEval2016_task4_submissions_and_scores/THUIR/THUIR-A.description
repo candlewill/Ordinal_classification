@@ -1,0 +1,21 @@
+1. THUIR
+2. Tsinghua University
+3. f91.jiang@gmail.com
+4. submit_A.zip
+5.1 Supervised methods + feature engineering
+5.2 Supervised
+5.3 ngram, word2vec, emoticon space features[4], word count in lexicon, occurrence in noisy corpus
+5.4 scikit-learn
+5.5 stemming
+5.6 noisy corpus by emoticons (Go A, etc.), NRC lexicon[2], sentiWordNet [3]
+5.7 15441
+5.8 No
+5.9 No
+5.10 No
+
+References
+[1] Go A, Bhayani R, Huang L. Twitter sentiment classification using distant supervision[J]. CS224N Project Report, Stanford, 2009, 1: 12.
+[2] Mohammad S M, Kiritchenko S, Zhu X. NRC-Canada: Building the state-of-the-art in sentiment analysis of tweets[C]//Second Joint Conference on Lexical and Computational Semantics (* SEM). 2013, 2: 321-327.
+MLA	
+[3] Esuli A, Sebastiani F. Sentiwordnet: A publicly available lexical resource for opinion mining[C]//Proceedings of LREC. 2006, 6: 417-422.
+[4] Jiang F, Liu Y, Luan H, et al. Microblog Sentiment Analysis with Emoticon Space Model[M]//Social Media Processing. Springer Berlin Heidelberg, 2014: 76-87.

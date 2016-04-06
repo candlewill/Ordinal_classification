@@ -1,0 +1,56 @@
+1. Team ID
+MDSENT
+
+2. Team affiliation
+University of Maryland Baltimore County
+
+3. Contact information
+Hang Gao hanggao1@umbc.edu
+Tim Oates oates@cs.umbc.edu
+
+4. Submission, i.e., ZIP file name
+result.zip
+
+5. System specs
+
+- 5.1 Core approach
+We use a system that combines convolutional neural network and linear SVM to predict tweet sentiment.
+
+CNN: we adopt both word embeddings and character embeddings as the input to the convolutional neural network. We use the embeddings published by word2vec as word embeddings while random initialize character embeddings. Both type of embeddings are fine-tuned during training procedure. For words, we use filters of height [1,2,3,4] and for characters, we use filters of height [3,4,5].
+
+linear SVM: we adopt several features used by some previous systems and feed them into a linear SVM classifier. 
+
+The probability distribution of a new incoming tweet is a combination of the predictions of CNN and linear SVM: w*CNN_PREDICTION + (1-w)*LINEAR_SVM_PREDICTION
+
+- 5.2 Supervised or unsupervised
+supervised
+
+- 5.3 Important/interesting/novel features used
+cluster ID: We use the same clusters adopted by NRC-Canada. The IDs of clusters in which a term of a tweet occurs in are used as features.
+
+Polarity dictionaries: NRC Emotion Lexicon, MPQA Lexicon, AFINN lexicon and Bing Liu Lexicon are used. Scores of a tweet wrt. each of these dictionaries are calculated as features.
+
+We also adopt the same unigram and bigram scores with respect to the two auto-generated dictionaries provided by NRC-Canada as features to the linear SVM
+
+- 5.4 Important/interesting/novel tools used
+ark tweet nlp: tokenize tweets.
+
+- 5.5 Significant data pre/post-processing
+We simply remove usernames and urls
+
+- 5.6 Other data used (outside of the provided)
+GoogleNews-vectors-negative300.bin: word embeddings from word2vec.(You have to download and put it in the embedding folder first before you use the system)
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+5975
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+
+6 References (if applicable)

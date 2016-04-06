@@ -1,0 +1,45 @@
+1. Team ID: SwissCheese
+
+2. Team affiliation: ETH Zürich
+
+3. Contact information: jderiu@student.ethz.ch
+
+4. Submission, i.e., ZIP file name: SwissCheeseSubmissionBD
+
+5. System specs
+
+- 5.1 Core approach
+	We trained 2 convolutional nnets in 2 phases. A distant supervised pahse using 90M tweets and the smileys as positive/negative label. 
+	A supervised pahse where we used the 2016 train data. We tuned on the 2016 devtest. 
+	After that we combined the prediction probabilities of the 2 nnets by simple averaging.
+	The convolutional nnets are based on custom word2vec embeddings trained on the 90M tweets. THe word2vec embeddings are the input to the nnet.
+	
+	For task D we take the results of task B and apply the aggregator.
+
+- 5.2 Supervised or unsupervised
+	Distant supervised and supervised
+
+- 5.3 Important/interesting/novel features used
+	We used a 2 layer convolutional nnet. We trained on lots of data which helped to get a good increase in F1 score. 
+	One of the 2 nnets used pos/neut/negative distant labels inferred from the tweets.
+
+- 5.4 Important/interesting/novel tools used
+	We based everything on theano framework. We used GPUs to gain a very significant speedup.
+
+- 5.5 Significant data pre/post-processing
+	Creationg custom word2vec embeddings based on the 90M is crucial, doing this we gained about 5 points in contrast to using pre-made glove embeddings.
+
+- 5.6 Other data used (outside of the provided)
+	We used about 90M tweets provided by sheffield.
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+	For task B and D we used about 5000 tweets (train 2016 and dev 2016 datasets combined)
+
+- 5.8 Did you participate in SemEval-2013 task 2? No 
+
+- 5.9 Did you participate in SemEval-2014 task 9? No
+
+- 5.10 Did you participate in SemEval-2015 task 10? Some of us did.
+
+6 References (if applicable)
+	Aliaksei Severyn and Alessandro Moschitti: Twitter Sentiment Analysis with Deep Convolutional Neural Networks

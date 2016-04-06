@@ -1,0 +1,32 @@
+1. Team ID: GTI
+
+2. Team affiliation: AtlantTIC Centre - University of Vigo
+
+3. Contact information: Milagros Fernández-Gavilanes <milagros.fernandez@gti.uvigo.es>
+
+4. Submission, i.e., ZIP file name: SemEval2016-task4-GTI-A-submission.zip
+
+5. System specs
+
+- 5.1 Core approach: We propose an NLP approach that includes pre-processing, tokenisation and POS tagging of texts to then obtain the syntactic structures of sentences by means of a dependency parser. 
+The resulting syntactic structures are then used to determine message- and phrase-level polarities using only linguistical features, such as intensification or negation. Then, the information extracted is used as features of a supervised system.
+
+- 5.2 Supervised or unsupervised: supervised
+
+- 5.3 Important/interesting/novel features used: We use lexical and syntactical structures
+
+- 5.4 Important/interesting/novel tools used: Freeling tagger and parser, Weka
+
+- 5.5 Significant data pre/post-processing: Hashtag, mention and entities recognition
+
+- 5.6 Other data used (outside of the provided): Socal dictionary for English
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data): 14269
+
+- 5.8 Did you participate in SemEval-2013 task 2? no
+
+- 5.9 Did you participate in SemEval-2014 task 9? no
+
+- 5.10 Did you participate in SemEval-2015 task 10? yes
+
+6 References (if applicable)

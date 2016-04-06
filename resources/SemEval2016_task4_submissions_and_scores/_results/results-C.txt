@@ -1,0 +1,12 @@
+twise	0.719	0.632	
+ECNU	0.806	0.726	
+PUT	0.860	0.773	
+LYS	0.864	0.694	
+finki	0.869	0.672	
+INSIGHT-1	1.006	0.607	
+ISTI-CNR	1.074	0.580	
+YZU-NLP	1.111	0.588	
+SentimentalITists	1.148	0.625	
+_baseline	1.200	0.537	
+PotTS	1.237	0.860	
+pkudblab	1.697	1.300	

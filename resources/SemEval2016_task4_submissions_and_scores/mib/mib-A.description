@@ -1,0 +1,51 @@
+1. Team ID
+mib 
+
+2. Team affiliation: IIT, Istitute of Informatic and Telematics, CNR, Pisa, Italy
+
+3. Contact information: Vittoria Cozza, vittoria.cozza@iit.cnr.it, tel. 0039-3398606095, skype_id=vicexeura
+
+4. Submission, i.e., ZIP file name
+resultToSubmit.txt
+
+5. System specs
+- 5.1 Core approach
+We have adopted a supervised approach: an SVM linear kernel classifier, implemented through sklearn [5], trained with data provided by the challenge.
+
+- 5.2 Supervised or unsupervised
+Supervised
+
+- 5.3 Important/interesting/novel features used
+Features are lexical and lexicon features. The second group of features are based on two novel Sentiment Lexicons: SenticNet polarity[3] and Happiness list of words [4].
+Further, beside the usage of novel lexicons, the novelty is that we extracted not only the polarity score of a unigram but also of twograms, according to [3].
+
+- 5.4 Important/interesting/novel tools used
+None
+
+- 5.5 Significant data pre/post-processing
+Data was preprocessed through two modules of the Tanl linguistic Pipeline [1]: sentence splitter and tokenizer.
+We extracted unigrams and bigrams. To deal with negations, all the unigrams occurring in a negated context receive the 'N-' suffix.
+A negated context is a tweet fragment starting with a negation word, according to [2] and ending with a punctuation mark.
+Unigrams and bigrams were used as input, in combination with sentiment lexicons, to compute the classifier features.
+
+- 5.6 Other data used (outside of the provided)
+None
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+Train plus Devel set provided by the organizer for 2016, we ignored only 340 tweets in the train data and 169 in the dev data, which text was "Not Available"
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+
+6 References (if applicable)
+[1] G. Attardi, S. Dei Rossi, M. Simi. The Tanl Pipeline. Proc. of LREC Workshop on WSPP, Malta, 2010.
+[2] The complete list of negation words provided by Christopher Potts in his tutorial on sentiment http://sentiment.christopherpotts.net/
+[3] E. Cambria, D. Olsher, and D. Rajagopal. SenticNet 3: A common and common-sense knowledge base for cognition-driven sentiment analysis. In: AAAI, pp. 1515-1521, Quebec City (2014)
+[4] http://www.plosone.org/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pone.0026752.s001
+[5] http://scikit-learn.org/stable/

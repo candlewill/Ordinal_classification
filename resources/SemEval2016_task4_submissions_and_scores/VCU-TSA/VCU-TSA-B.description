@@ -1,0 +1,40 @@
+Team ID : VCU-TSA
+
+Team affiliation : Virginia Commonwealth University (VCU)
+
+Contact information :
+	Gerard Briones - brionesgc@vcu.edu
+	Kasun Amarasinghe - amarasinghek@vcu.edu
+	Dr. Bridget McInnes - btmcinnes@vcu.edu
+
+Submission : VCU-TSA-Submission.zip
+
+System specs :
+	-Core Approach- : We first sanitize the twitter data by removing stop
+		words and special characters, as well as preserving emoticons by
+		converting them into unique words. Hashtags are kept as unique words in
+		this process. The remaining words are then stemmed to assist in reducing
+		dimensionality. The resulting tokens are then used to create feature
+		vectors for each tweet, which are output as .arff files to be used in
+		classification using WEKA. Prediction are formed and used to classify
+		the testing data.
+	
+	-Important/interesting/novel features used- : Emoticon and hashtag preservation
+
+	-Important/interesting/novel tools used- :
+		WEKA - java library used to classify the data
+		NLTK - python module mainly used for stemming
+
+	-Significant data pre/post-processing- :
+		Emoticons are converted using a set of regexs to capture and convert them into unique words.
+		Hashtags are preserved by simply removing the '#' and keeping the resulting token
+
+	-Other data used- : A list containing stop words was used to remove stop words
+
+	-Size of training Twitter data used- : 98.8 kb .tsv downloaded for task A, 628.1 kb .tsv downloaded for task B
+
+	- We did not participate in SemEval-2013 task 2
+
+	- We did not participate in SemEval-2014 task 9
+
+	- We did not participate in SemEval-2015 task 10

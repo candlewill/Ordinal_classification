@@ -1,0 +1,47 @@
+        1. Team ID
+           WR
+
+	2. Team affiliation
+            WR
+
+	3. Contact information
+           leozhou@wisers.com
+
+	4. Submission, i.e., ZIP file name
+           SemEval2016_Task4_SubtaskB_Wisers
+
+	5. System specs
+
+	- 5.1 Core approach
+              LSTM + CNN
+
+	- 5.2 Supervised or unsupervised
+              Supervised
+
+	- 5.3 Important/interesting/novel features used
+              CNN feature feeds to LSTM
+
+	- 5.4 Important/interesting/novel tools used
+               theano
+
+	- 5.5 Significant data pre/post-processing
+              remove noise in twitter
+
+	- 5.6 Other data used (outside of the provided)
+              data from: http://www.sananalytics.com/
+              data crawled from twitter with emoticon, :), :(, :D,...
+
+   
+	- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+              Around 150k
+
+	- 5.8 Did you participate in SemEval-2013 task 2?
+              No.
+
+	- 5.9 Did you participate in SemEval-2014 task 9?
+              No.
+
+	- 5.10 Did you participate in SemEval-2015 task 10?
+               No.
+
+	6 References (if applicable)

@@ -1,0 +1,32 @@
+1. Team ID
+PUT
+2. Team affiliation
+Poznan University of Technology
+3. Contact information
+mateusz.lango@cs.put.poznan.pl
+4. Submission, i.e., ZIP file name
+PUT.zip
+5. System specs
+
+- 5.1 Core approach
+2 ensembles for ordial regresion [1]. One of SVMS, second of XGBoost trees. Final decision is average of predictions of those ensembles.
+- 5.2 Supervised or unsupervised
+Supervised
+- 5.3 Important/interesting/novel features used
+ngrams, kgrams, Brown clustering, ngrams with negated context, dictionaries(NRC Hashtag Affirmative Context, MPQA, SentiWordNet)
+- 5.4 Important/interesting/novel tools used
+XGBoost, scikit-learn
+- 5.5 Significant data pre/post-processing
+None
+- 5.6 Other data used (outside of the provided)
+None
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+5459 tweets
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+6 References (if applicable)
+[1] Frank, E., & Hall, M. (2001). A simple approach to ordinal classification (pp. 145-156). Springer Berlin Heidelberg.

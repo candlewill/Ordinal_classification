@@ -1,0 +1,31 @@
+1. Team ID
+PUT
+2. Team affiliation
+Poznan University of Technology
+3. Contact information
+mateusz.lango@cs.put.poznan.pl
+4. Submission, i.e., ZIP file name
+PUT-B.zip
+5. System specs
+- 5.1 Core approach
+Ensemble of XGBoost with RBBag.
+- 5.2 Supervised or unsupervised
+Supervised
+- 5.3 Important/interesting/novel features used
+ngrams, kgrams, Brown clustering, ngrams with negated context, dictionaries(NRC Hashtag Affirmative Context, MPQA, SentiWordNet)
+- 5.4 Important/interesting/novel tools used
+XGBoost, scikit-learn
+- 5.5 Significant data pre/post-processing
+None
+- 5.6 Other data used (outside of the provided)
+None
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+4346
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+6 References (if applicable)
+

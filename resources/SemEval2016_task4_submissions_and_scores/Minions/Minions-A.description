@@ -1,0 +1,44 @@
+  1. Team ID
+      Minions (team name)
+
+  2. Team affiliation
+      Alexandru Ioan Cuza" University of Iasi, Faculty of Computer Science, Romania
+
+  3. Contact information
+      hrisca.marius@gmail.com
+
+  4. Submission, i.e., ZIP file name
+
+
+  5. System specs
+
+  - 5.1 Core approach
+
+        Core of our system is based on 3 sentiment analysis system (web service). 
+          1. Alchemy         --> http://www.alchemyapi.com/
+          2. Sentiment140    --> http://www.sentiment140.com/
+          3. Text-processing --> http://text-processing.com/
+
+        Here you can view architecure of the system --> http://54.183.179.141/images/Sentiment.png
+
+
+  - 5.2 Supervised or unsupervised
+        It was supervised by our lectors.
+
+  - 5.3 Important/interesting/novel features used
+        Each of this service has their own scoring system, so we analyze it, combine and choose the best using our own methods.
+
+  - 5.4 Important/interesting/novel tools used
+        * Services mentioned in 5.1 section;
+        * Python NLP tools
+        * Java lib
+
+  - 5.5 Significant data pre/post-processing
+
+
+  - 5.6 Other data used (outside of the provided)
+        We didn't use other data besides those provided by Semeval.
+
+  - 5.7 Did you participate in SemEval-2015 task 3?
+        No.
+

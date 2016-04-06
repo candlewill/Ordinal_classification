@@ -1,0 +1,74 @@
+1. Team ID
+
+	CUFE
+
+2. Team affiliation
+
+	Cairo University
+
+3. Contact information
+
+	mah.nabil@cu.edu.eg
+	mohamedadaly@gmail.com
+	amir@alumni.caltech.edu
+
+4. Submission, i.e., ZIP file name
+
+	CUFE-B.zip
+
+5. System specs
+
+- 5.1 Core approach
+
+In this contest we applied a deep learning model that use a gated recurrent neural networks as a core approach that is pre-trained on two types of word embeddings. The first type was general word embeddings generated from training Google word 2 vector on 20 Million tweets crawled using twitter API. The second type of word embedding was task specific one where we used sent140 dataset [1] to train another gated recurrent network with similar architecture to classify the tweets into positive and negative categories. The network is allowed to generate it's word embeddings during learning to be used as task specific word embeddings for any other sentiment analysis model.
+
+- 5.2 Supervised or unsupervised
+
+Our approach was mainly supervised where we used 6,324 out of 7,088 tweets for SemEval-2016 task 4-B dataset as the remaining tweets were not available.
+
+- 5.3 Important/interesting/novel features used
+
+During our trials we observed that the recurrent model classify the long tweets well but it may find difficulties to classify short tweets so we used two types of word embeddings then we concatenated these embeddings to double the length the tweet we the first half is the tweet defined by the general word embeddings and the second half is the tweet defined by the sentiment word embeddings then we fed the resulting double length tweet to a gated recurrent model and after it one hidden layer then the softmax layer for the classification.
+
+- 5.4 Important/interesting/novel tools used
+
+	- NLTK twitter tokenizer
+	- Keras deep learning library
+	- Theano and CUDA as backend for Keras
+	- Google Word2vector Library
+	- Twitter API
+
+- 5.5 Significant data pre/post-processing
+
+We have done a minimal preprocessing for all tweets we used by the same approach where we tokenized the tweet with NLTK twitter tokenizer, normalized usernames, normalized numbers, normalized urls, normalized sad and happy emotions. Also we added some cleaning regex to clean any html tags, and some tokenization regex for example "I'll" is tokenized to "I" and "'ll". For all hashtags in the tweet we tokenized each hashtag using the same algorithm provided as top answer for this question (http://stackoverflow.com/questions/8870261/how-to-split-text-without-spaces-into-list-of-words) also we used
+the same dictionary provided then we appended the result tokens to the end of each tweet. What is difference from Task A approach is replacing the target entity with "_Entity_" token.
+
+- 5.6 Other data used (outside of the provided)
+
+We crawled about 40M tweet using tweeter API using twitter API based on the following  criteria 
+	- Happy and sad emotions Like :) :(  ...
+	- Hashtags from the data set of SemEval 2016 Task A.
+	- Hashtags from the data set of SemEval 2013 as it is available for training in this year contest.
+After cleaning the tweets removing duplicates and retweets we ended up with about 19M tweet we added sent140 corpus to this data to end up with about 20.5 Million tweet.
+We used the 20.5M corpus to generate a general word embeddings, and we used sent140 corpus to generate task specific word embeddings. 
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+6,324 out of 7,088 tweets for SemEval-2016 task 4-B dataset as the remaining tweets were not available.
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+No
+
+6 References (if applicable)
+
+[1] http://help.sentiment140.com/
+

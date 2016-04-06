@@ -1,0 +1,43 @@
+1. Team ID
+Sentimental ITists
+
+2. Team affiliation
+Student
+
+3. Contact information
+Octavian Ciobanu (Octaku8@gmail.com)
+Cosmin Florean (kosmyn01@gmail.com)
+
+4. Submission, i.e., ZIP file name
+SemEval2016-task4-SentimentalITsts
+
+5. System specs
+
+- 5.1 Core approach
+
+- 5.2 Supervised or unsupervised
+Supervised
+
+- 5.3 Important/interesting/novel features used
+Naive Bayes Algorithm
+
+- 5.4 Important/interesting/novel tools used
+
+- 5.5 Significant data pre/post-processing
+
+- 5.6 Other data used (outside of the provided)
+None
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+8000 tweets
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+
+6 References (if applicable)

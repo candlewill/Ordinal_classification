@@ -1,0 +1,39 @@
+1. Team ID
+90X, NRU HSE Nizhny Novgorod
+2. Team affiliation
+National Research University Higher School of Economics
+3. Contact information
+nkarpov@hse.ru
+4. Submission, i.e., ZIP file name
+nkarpov.zip
+5. System specs
+- 5.1 For tweet quantification according to a five-point scale (Subtask E) we used the adopted iterative method proposed by (Xue & Weiss, 2009). 
+
+- 5.2 The method based on the iterative procedure with the cost-sensitive supervise learner
+
+- 5.3 As a features we use TFIDF for word n-garms with n=1..4 and character n-garms with n=1..4
+
+- 5.4 Important/interesting/novel tools used
+We change two-point to five-point scale and apply cost-sensitive supervise learner with class weights in Scikit. Supervise learning we carry out with logistic regression classifier. This approach showed the best accuracy on the training set among others: CC, PCC, ACC, PACC (Esuli & Sebastiani 2015), EM (Saerens et al., 2002). All algorithms available in the git repository 
+
+Lemmatization: nltk.stem.WordNetLemmatizer
+Feature extraction: sklearn.feature_extraction.text.TfidfVectorizer
+
+- 5.5 Significant data pre/post-processing
+In the row text some pattern were replaced with their substitutes. For instance emoticon. 
+
+- 5.6 We did not use other data (outside of the provided)
+
+- 5.7 All Twitter data from train, dev, devtest subsets used for training. 
+
+- 5.8 Did you participate in SemEval-2013 task 2? No
+
+- 5.9 Did you participate in SemEval-2014 task 9? No
+
+- 5.10 Did you participate in SemEval-2015 task 10? No
+
+6 References (if applicable)
+https://github.com/Arctickirillas/Rubrication
+Esuli, A. and F. Sebastiani: 2015, Optimizing Text Quantifiers for Multivariate Loss Functions. ACM Transactions on Knowledge Discovery from Data, 9(4): Article 27, 2015.
+Saerens, M., P. Latinne, and C. Decaestecker: 2002, Adjusting the Outputs of a Classifier to New a Priori Probabilities: A Simple Procedure. Neural Computation 14(1), 21–41
+Xue, J. C. & G. M. Weiss: 2009, Quantification and semi-supervised classification methods for handling changes in class distribution. KDD 2009, pp. 897–906

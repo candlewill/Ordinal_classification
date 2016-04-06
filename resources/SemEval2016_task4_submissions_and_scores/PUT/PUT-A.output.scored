@@ -1,0 +1,49 @@
+
+Scoring LiveJournal2014:
+	positive: P=0.6452, R=0.7494, F1=0.6934
+	negative: P=0.6923, R=0.5329, F1=0.6022
+	 neutral: P=0.5922, R=0.5937, F1=0.5930
+		AvgF1_2=0.648, AvgR_3=0.625, Acc=0.636
+	OVERALL SCORE : 0.648
+
+Scoring SMS2013:
+	positive: P=0.4914, R=0.6382, F1=0.5553
+	negative: P=0.5121, R=0.4289, F1=0.4669
+	 neutral: P=0.7349, R=0.6843, F1=0.7087
+		AvgF1_2=0.511, AvgR_3=0.584, Acc=0.625
+	OVERALL SCORE : 0.511
+
+Scoring Twitter2013:
+	positive: P=0.5696, R=0.8047, F1=0.6670
+	negative: P=0.5693, R=0.3894, F1=0.4625
+	 neutral: P=0.6173, R=0.4445, F1=0.5168
+		AvgF1_2=0.565, AvgR_3=0.546, Acc=0.584
+	OVERALL SCORE : 0.565
+
+Scoring Twitter2014:
+	positive: P=0.6630, R=0.8513, F1=0.7454
+	negative: P=0.5432, R=0.4356, F1=0.4835
+	 neutral: P=0.5791, R=0.3722, F1=0.4531
+		AvgF1_2=0.614, AvgR_3=0.553, Acc=0.633
+	OVERALL SCORE : 0.614
+
+Scoring Twitter2014Sarcasm:
+	positive: P=0.4394, R=0.8788, F1=0.5859
+	negative: P=0.6000, R=0.0750, F1=0.1333
+	 neutral: P=0.4000, R=0.4615, F1=0.4286
+		AvgF1_2=0.360, AvgR_3=0.472, Acc=0.442
+	OVERALL SCORE : 0.360
+
+Scoring Twitter2015:
+	positive: P=0.6622, R=0.7139, F1=0.6871
+	negative: P=0.4948, R=0.5205, F1=0.5073
+	 neutral: P=0.6223, R=0.5593, F1=0.5891
+		AvgF1_2=0.597, AvgR_3=0.598, Acc=0.621
+	OVERALL SCORE : 0.597
+
+Scoring Twitter2016:
+	positive: P=0.5684, R=0.7493, F1=0.6464
+	negative: P=0.4306, R=0.6094, F1=0.5046
+	 neutral: P=0.7085, R=0.4627, F1=0.5598
+		AvgF1_2=0.576, AvgR_3=0.607, Acc=0.584
+	OVERALL SCORE : 0.576

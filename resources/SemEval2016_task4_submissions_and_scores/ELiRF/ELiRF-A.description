@@ -1,0 +1,49 @@
+1. Team ID
+ELiRF
+
+2. Team affiliation
+UPV
+
+3. Contact information
+Maite Giménez [mgimenez@dsic.upv.es]
+
+4. Submission, i.e., ZIP file name
+elirf.zip
+
+5. System specs
+
+- 5.1 Core approach
+    We used a supper support vector machine (SVM) approach.
+
+- 5.2 Supervised or unsupervised
+    Our approach is suppervised.
+
+- 5.3 Important/interesting/novel features used
+    - Ngrams of characters.
+    - Polarity lexicons.
+    - Metadata from twitter.
+    - Emotion lexicons.
+
+- 5.4 Important/interesting/novel tools used
+
+- 5.5 Significant data pre/post-processing
+
+- 5.6 Other data used (outside of the provided)
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+    We trained using 86.74 % of the tweets.
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+    No
+	
+- 5.9 Did you participate in SemEval-2014 task 9?
+    No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+    Yes 
+
+6 References (if applicable)
+    Lluís F. Hurtado, Ferran Pla
+    ELiRF-UPV en TASS 2014: Análisis de Sentimientos, Detección de Tópicos y Análisis de Sentimientos de Aspectos en Twitter.
+    In Proc. of the TASS workshop at SEPLN 2014. Girona, Spain, 16-19 September. 2014. 
+

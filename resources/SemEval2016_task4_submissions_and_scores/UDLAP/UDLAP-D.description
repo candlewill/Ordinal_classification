@@ -1,0 +1,75 @@
+1. Team ID
+
+   UDLAP
+
+2. Team affiliation
+ 
+   Universidad de las Américas Puebla (UDLAP), Mexico- http://www.udlap.mx/home.aspx
+
+3. Contact information
+
+   Name: Esteban Castillo Juarez
+   Affiliation: Universidad de las Américas Puebla, Mexico
+   Email: esteban.castillojz@udlap.mx
+
+4. Submission, i.e., ZIP file name
+
+    UDLAP-D.zip
+
+5. System specs
+
+- 5.1 Core approach
+
+   We create a co-occurrence graph per sentiment in the training set and a graph per 
+   topic in the test set then we compared all graph topics against the graph sentiments 
+   and obtain the similarity between both. Finally we applied a heuristic to obtain the 
+   positive and negative percentage of texts.
+	
+- 5.2 Supervised or unsupervised
+
+    Supervised approach
+
+- 5.3 Critical features used
+
+    1. Co-occurrence graph
+    2. Dice similarity measure
+	3. Euclidean distance
+
+- 5.4 Critical tools used
+
+    1. Python- https://www.python.org/
+    2. networkx- https://networkx.github.io/
+	3. Igraph- http://igraph.org/redirect.html
+    3. clips pattern- http://www.clips.ua.ac.be/pattern
+
+- 5.5 Significant data pre/post-processing
+
+    1. Elimination of non ascii words and punctuation marks
+    2. part of speech tagging
+
+- 5.6 Other data used (outside of the provided)
+
+    No
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+    5205 tweets
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+    No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+    No
+	
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+	Yes, Subtask B
+
+6 References (if applicable)
+
+   1. Matthew O. Jackson. 2008. Social and Economic Networks. Princeton University Press, Princeton, NJ, USA.
+   2. Hassan, S., Mihalcea, R. & Banea, C. (2007). Random Walk Term Weighting for Improved Text Classification.. 
+      Int. J. Semantic Computing, 1, 421-439. 
+   

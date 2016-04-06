@@ -4,7 +4,7 @@ import numpy as np
 from keras.preprocessing import sequence
 from keras.callbacks import EarlyStopping
 
-from deep_learning_models import cnn_lstm
+from deep_learning_models import cnn_lstm, cnn
 
 
 # from deep_learning_models import b_rnn
@@ -46,7 +46,7 @@ Y_test = (np.array(Y_test) + 2) / 4
 
 batch_size = 8
 nb_epoch = 3
-model = cnn_lstm(W)
+model = cnn(W)
 
 model.compile(loss='mae', optimizer='adagrad')  # loss function: mse
 print("Train...")
@@ -64,8 +64,8 @@ print('Predict value: %s' % str(predict))
 
 submit_predict = model.predict(submit_test, batch_size=batch_size).reshape((1, len(submit_test)))[0]
 
-pickle.dump((test, submit_predict), open("./tmp/submit.p", 'wb'))
-
+pickle.dump((test, submit_predict), open("./tmp/submit_cnn.p", 'wb'))
+exit()
 print("Saving model and weights...")
 json_string = model.to_json()
 open('./tmp/keras_model_architecture.json', 'w').write(json_string)

@@ -1,0 +1,56 @@
+1. Team ID 
+
+OPAL
+
+2. Team affiliation
+
+European Commission Joint Research Centre 
+
+3. Contact information
+
+Alexandra Balahur - alexandra.balahur@jrc.ec.europa.eu
+
+4. Submission, i.e., ZIP file name
+
+OPAL_Results_SemEval2016_Task4A.zip
+
+5. System specs
+
+- 5.1 Core approach 
+
+2 different approaches: 1) supervised using unigrams and bigrams and SVM, with and without dealing with slang and language normalization; 2) using sentiment dictionaries and rules
+
+- 5.2 Supervised or unsupervised
+
+We tested both approaches.
+
+- 5.3 Important/interesting/novel features used
+
+The condition we set is that a feature appear at least twice in the training data.
+
+- 5.4 Important/interesting/novel tools used 
+
+We employed normalization using a tool already developed for the participation to SemEval 2013 (Balahur, 2013).
+
+- 5.5 Significant data pre/post-processing 
+
+Text Normalization, slang normalization 
+
+- 5.6 Other data used (outside of the provided)
+
+The training and development data from SemEval 2013 Task 2. 
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+5341 tweets in the training set
+1795 tweets in the development set
+the whole training and development sets from SemEval 2013 task 2.
+
+- 5.8 Did you participate in SemEval-2013 task 2? Yes
+
+- 5.9 Did you participate in SemEval-2014 task 9? No
+
+- 5.10 Did you participate in SemEval-2015 task 10? No
+
+6 References (if applicable)
+
+Balahur, A. (2013). "OPTWIMA: Comparing Knowledge-rich and Knowledge-poor Approaches for Sentiment Analysis in Short Informal Texts". Second Joint Conference on Lexical and Computational Semantics (*SEM), Volume 2: Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013), pg. 460--465, ACL. 

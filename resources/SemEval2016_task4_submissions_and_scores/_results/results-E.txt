@@ -1,0 +1,12 @@
+QCRI	0.243	
+finki	0.316	
+pkudblab	0.331	
+NRU-HSE	0.334	
+ECNU	0.341	
+ISTI-CNR	0.358	
+LYS	0.360	
+INSIGHT-1	0.366	
+_baseline	0.474	
+HSENN	0.545	
+_baseline	0.734	
+PotTS	0.818	

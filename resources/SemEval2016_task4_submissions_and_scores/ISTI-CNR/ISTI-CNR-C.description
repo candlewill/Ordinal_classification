@@ -1,0 +1,60 @@
+1. Team ID
+
+ISTI-CNR
+
+2. Team affiliation
+
+Istituto di Scienza e Tecnologia dell'Informazione "A. Faedo" - Consiglio Nazionale delle Ricerche
+
+3. Contact information
+
+Andrea Esuli <andrea.esuli@isti.cnr.it>
+
+4. Submission, i.e., ZIP file name
+
+NeMIS-ISTI-CNR.zip
+
+5. System specs
+
+- 5.1 Core approach
+
+Classification-based regression method, using a sample-balanced tree of binary classifiers.
+Each binary classifier is a linear svm.
+
+- 5.2 Supervised or unsupervised
+
+supervised
+
+- 5.3 Important/interesting/novel features used
+
+meta features for urls, mentions, tags
+
+- 5.4 Important/interesting/novel tools used
+
+none
+
+- 5.5 Significant data pre/post-processing
+
+removed examples with same text but different labels
+
+- 5.6 Other data used (outside of the provided)
+
+none
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+6119
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+no
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+no
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+no
+
+6 References (if applicable)

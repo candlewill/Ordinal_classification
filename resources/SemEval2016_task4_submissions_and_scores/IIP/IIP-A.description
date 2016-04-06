@@ -1,0 +1,34 @@
+1. Team ID
+IIP
+2. Team affiliation
+Infosys Limited
+3. Contact information
+Jasper Friedrichs, Jasper_Friedrichs@Infosys.com
+4. Submission, i.e., ZIP file name
+IIP-A.zip
+5. System specs
+
+- 5.1 Core approach
+Weighted ensemble of Naive Bayes and Logistic Regression classifiers
+- 5.2 Supervised or unsupervised
+supervised
+- 5.3 Important/interesting/novel features used
+Unigram,Bigram,Pos,Cluster,Dependency Pair, lexicon scores
+- 5.4 Important/interesting/novel tools used
+Weighted sum ensemble that optimizes strengths of individual classifiers
+- 5.5 Significant data pre/post-processing
+-/-
+- 5.6 Other data used (outside of the provided)
+Sentiment lexicons
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+2013 T2B train,	7679	(2869,1077,3733-positive,negative,neutral)
+2013 T2B dev,	1286	(459,258,569-positive,negative,neutral)
+2016 T24Atrain,	4796	(2483,678,1625-positive,negative,neutral)
+2016 T4A dev,	1595	(669,319,611-positive,negative,neutral)
+- 5.8 Did you participate in SemEval-2013 task 2?
+no
+- 5.9 Did you participate in SemEval-2014 task 9?
+no
+- 5.10 Did you participate in SemEval-2015 task 10?
+no
+6 References (if applicable)

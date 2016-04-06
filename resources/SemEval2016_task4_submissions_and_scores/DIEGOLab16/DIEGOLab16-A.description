@@ -1,0 +1,46 @@
+1. Team ID
+DiegoLab16
+
+2. Team affiliation
+Arizona State University
+
+3. Contact information
+Abeed Sarker
+abeed.sarker@asu.edu
+
+
+4. Submission, i.e., ZIP file name
+submitted as txt
+
+
+5. System specs
+
+- 5.1 Core approach
+SVM classifier with a set of features including n-grams, sentiment lexicon scores, centroid based features derived from distributional semantics, and cluster-based information from clusters learned from large, unlabeled set of tweets. Classes are weighted to address the imbalance in classes
+
+- 5.2 Supervised or unsupervised
+Supervised
+
+- 5.3 Important/interesting/novel features used
+Centroid based features and the cluster based features, both of which are interesting and improve classification accuracy.
+
+- 5.4 Important/interesting/novel tools used
+LibSVM, Word2Vec and various sentiment lexicons.
+
+- 5.5 Significant data pre/post-processing
+Usual- stemming, lowercasing. Stopwordsa are not removed. Usernames and URLs normalized.
+
+- 5.6 Other data used (outside of the provided)
+Large sets of Twitter data from Trec, FSD corpus and our own internal Adverse drug reaction corpus was used to learn word vectors using Word2Vec.
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+9899 instances
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+- 5.10 Did you participate in SemEval-2015 task 10?
+Yes
+
+6 References (if applicable)

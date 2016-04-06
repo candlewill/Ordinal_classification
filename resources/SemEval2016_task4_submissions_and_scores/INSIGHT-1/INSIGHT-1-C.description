@@ -1,0 +1,53 @@
+1. Team ID
+INSIGHT-1
+
+2. Team affiliation
+INSIGHT Research Centre, National University of Ireland, Galway
+AYLIEN Inc.
+
+3. Contact information
+Sebastian Ruder
+
+4. Submission, i.e., ZIP file name
+INSIGHT-1-C.zip
+
+5. System specs
+A one-layer convolutional neural network
+
+- 5.1 Core approach
+A convolutional neural network
+
+- 5.2 Supervised or unsupervised
+Unsupervised: pre-trained GloVe word embeddings, word embeddings fine-tuned on large corpus using distant supervision
+Supervised: final training on SemEval training data
+A: additional training data was used from SemEval 2013 Task 2 Train/Dev
+C/E: additional training data was used from SemEval 2016 Task 4 Trial
+
+- 5.3 Important/interesting/novel features used
+filters with different filter lengths in contrast to last year's winner who only used filters of the same size
+we investigated what impact fine-tuning the embeddings on a crowd-sourced corpus of 50k tweets has on the results
+
+- 5.4 Important/interesting/novel tools used
+
+
+- 5.5 Significant data pre/post-processing
+Twitter-specific pre-processing: normalization of mentions, hashtags, smileys, urls, numbers, elongations, repeated
+characters, etc.
+
+- 5.6 Other data used (outside of the provided)
+A crowd-sourced corpus of about 50k annotated tweets
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+A: 5443 (557 tweets were not available)
+C/E: 5441 (559 tweets were not available)
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+
+6 References (if applicable)

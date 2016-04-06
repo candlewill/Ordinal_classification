@@ -1,0 +1,101 @@
+	            dunkin: KL=0.000, AE=0.008, RAE=0.043
+	   george harrison: KL=0.002, AE=0.011, RAE=0.191
+	    cate blanchett: KL=0.012, AE=0.044, RAE=0.398
+	         white sox: KL=0.050, AE=0.129, RAE=0.309
+	         sam smith: KL=0.005, AE=0.028, RAE=0.146
+	      scott walker: KL=0.046, AE=0.145, RAE=0.379
+	     rolling stone: KL=0.010, AE=0.051, RAE=0.171
+	             gucci: KL=0.016, AE=0.068, RAE=0.201
+	              kane: KL=0.025, AE=0.100, RAE=0.221
+	        tony blair: KL=0.200, AE=0.296, RAE=1.227
+	               ps4: KL=0.004, AE=0.024, RAE=0.145
+	      david wright: KL=0.001, AE=0.010, RAE=0.070
+	        dana white: KL=0.370, AE=0.411, RAE=0.853
+	    kendrick lamar: KL=0.004, AE=0.029, RAE=0.110
+	     frank gifford: KL=0.042, AE=0.080, RAE=1.180
+	             niall: KL=0.066, AE=0.079, RAE=0.410
+	           nirvana: KL=0.019, AE=0.044, RAE=0.835
+	             islam: KL=0.029, AE=0.120, RAE=0.237
+	           ant-man: KL=0.019, AE=0.049, RAE=0.686
+	          kendrick: KL=0.000, AE=0.004, RAE=0.013
+	        hulk hogan: KL=0.184, AE=0.287, RAE=0.570
+	national hot dog day: KL=0.028, AE=0.054, RAE=1.193
+	         sharknado: KL=0.000, AE=0.006, RAE=0.016
+	              zayn: KL=0.004, AE=0.025, RAE=0.150
+	    paul mccartney: KL=0.000, AE=0.001, RAE=0.031
+	        kanye west: KL=0.088, AE=0.202, RAE=0.402
+	        dark souls: KL=0.000, AE=0.001, RAE=0.004
+	         tom brady: KL=0.023, AE=0.092, RAE=0.217
+	          bee gees: KL=0.038, AE=0.058, RAE=2.582
+	       frank ocean: KL=0.010, AE=0.059, RAE=0.152
+	               eid: KL=0.004, AE=0.020, RAE=0.290
+	     josh hamilton: KL=0.060, AE=0.084, RAE=0.389
+	        katy perry: KL=0.000, AE=0.003, RAE=0.014
+	            briana: KL=0.064, AE=0.174, RAE=0.344
+	      foo fighters: KL=0.033, AE=0.055, RAE=1.826
+	    george osborne: KL=0.028, AE=0.119, RAE=0.239
+	        paul dunne: KL=0.000, AE=0.004, RAE=0.032
+	        christians: KL=0.009, AE=0.068, RAE=0.136
+	       big brother: KL=0.035, AE=0.096, RAE=0.277
+	     star wars day: KL=0.002, AE=0.005, RAE=0.478
+	      super eagles: KL=0.008, AE=0.026, RAE=0.224
+	       paper towns: KL=0.041, AE=0.087, RAE=0.942
+	      dean ambrose: KL=0.046, AE=0.097, RAE=0.326
+	            murray: KL=0.093, AE=0.138, RAE=0.408
+	       amy schumer: KL=0.004, AE=0.037, RAE=0.104
+	        ed sheeran: KL=0.018, AE=0.046, RAE=0.727
+	            israel: KL=0.066, AE=0.182, RAE=0.365
+	      brock lesnar: KL=0.008, AE=0.037, RAE=0.179
+	      chuck norris: KL=0.074, AE=0.176, RAE=0.616
+	            curtis: KL=0.008, AE=0.039, RAE=0.167
+	    caitlyn jenner: KL=0.012, AE=0.072, RAE=0.185
+	       chris evans: KL=0.092, AE=0.142, RAE=0.404
+	       john kasich: KL=0.010, AE=0.070, RAE=0.154
+	  floyd mayweather: KL=0.087, AE=0.192, RAE=0.387
+	             milan: KL=0.023, AE=0.057, RAE=0.278
+	      saudi arabia: KL=0.279, AE=0.370, RAE=1.133
+	         lady gaga: KL=0.001, AE=0.010, RAE=0.074
+	             yakub: KL=0.556, AE=0.487, RAE=5.125
+	    zac brown band: KL=0.014, AE=0.021, RAE=0.351
+	         bad blood: KL=0.053, AE=0.125, RAE=0.320
+	             nicki: KL=0.006, AE=0.047, RAE=0.125
+	        ryan braun: KL=0.019, AE=0.063, RAE=0.236
+	         john cena: KL=0.026, AE=0.073, RAE=0.261
+	               ira: KL=0.516, AE=0.483, RAE=3.043
+	         the vamps: KL=0.000, AE=0.001, RAE=0.007
+	        calibraska: KL=0.132, AE=0.143, RAE=10.526
+	       david bowie: KL=0.008, AE=0.030, RAE=0.425
+	          watchman: KL=0.010, AE=0.046, RAE=0.273
+	        boko haram: KL=3.231, AE=0.955, RAE=29.336
+	          twilight: KL=0.065, AE=0.117, RAE=0.363
+	              kpop: KL=0.004, AE=0.027, RAE=0.121
+	    dustin johnson: KL=0.029, AE=0.096, RAE=0.249
+	            rousey: KL=0.014, AE=0.072, RAE=0.177
+	     charlie hebdo: KL=0.394, AE=0.442, RAE=1.252
+	          miss usa: KL=0.014, AE=0.052, RAE=0.216
+	               gay: KL=0.007, AE=0.059, RAE=0.118
+	              yoga: KL=0.001, AE=0.007, RAE=0.185
+	     carly fiorina: KL=0.031, AE=0.100, RAE=0.416
+	       kris bryant: KL=0.007, AE=0.029, RAE=0.191
+	             shawn: KL=0.046, AE=0.085, RAE=1.275
+	       real madrid: KL=0.774, AE=0.427, RAE=0.836
+	              thor: KL=0.002, AE=0.022, RAE=0.106
+	       randy orton: KL=0.015, AE=0.060, RAE=0.208
+	           muslims: KL=0.156, AE=0.275, RAE=0.748
+	       david price: KL=0.014, AE=0.037, RAE=0.261
+	     prince george: KL=0.000, AE=0.004, RAE=0.105
+	          ice cube: KL=0.008, AE=0.034, RAE=0.193
+	     janet jackson: KL=0.002, AE=0.011, RAE=0.162
+	                u2: KL=0.000, AE=0.004, RAE=0.022
+	    kim kardashian: KL=0.133, AE=0.226, RAE=0.461
+	      seth rollins: KL=0.581, AE=0.286, RAE=0.670
+	      jason aldean: KL=0.051, AE=0.078, RAE=2.226
+	national ice cream day: KL=0.036, AE=0.044, RAE=7.018
+	           red sox: KL=0.035, AE=0.099, RAE=0.274
+	     justin bieber: KL=0.116, AE=0.138, RAE=0.445
+	       iron maiden: KL=0.006, AE=0.020, RAE=0.408
+	            naruto: KL=0.013, AE=0.048, RAE=0.395
+	            moto g: KL=0.002, AE=0.017, RAE=0.124
+	      rahul gandhi: KL=0.136, AE=0.260, RAE=0.545
+	              iran: KL=0.243, AE=0.344, RAE=1.055
+	OVERALL : KLD=0.099, AE=0.109, RAE=0.947

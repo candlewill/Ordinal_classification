@@ -1,0 +1,47 @@
+1. Team ID
+
+YZU-NLP
+
+2. Team affiliation
+
+Yuan Ze University, Taoyuan, Taiwan; Yunnan University, Kunming, China
+
+3. Contact information
+
+Liang-Chih Yu, Email: lcyu@saturn.yzu.edu.tw
+Yunchao He, Email: yunchaohe@gmail.com
+
+4. Submission
+
+Zip file name: YZU-NLP-SemEval2016-Task4-C.zip
+Two files in the zip file: YZU-NLP-C.output, YZU-NLP-C.description
+
+5. System specs
+
+- 5.1 Core approach
+
+We train LSTM-CNN model to capture the sentiment score of tweets. A linear regression lay is on the top of the model.
+
+- 5.2 Supervised or unsupervised
+
+Supervised
+
+- 5.3 Important/interesting/novel features used
+
+All the features are learned by LSTM-CNN model automacticly
+
+- 5.4 Important/interesting/novel tools used
+
+- 5.5 Significant data pre/post-processing
+
+- 5.6 Other data used (outside of the provided)
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+6 References (if applicable)

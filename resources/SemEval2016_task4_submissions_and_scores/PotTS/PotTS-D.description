@@ -1,0 +1,125 @@
+1. Team ID
+PotTS
+
+2. Team affiliation
+University of Potsdam/Retresco GmbH
+
+3. Contact information
+Uladzimir Sidarenka <sidarenk@uni-pottsdam.de>
+Kaiser-Friedrich Str., 124
+14469 Potsdam
++49 176 957 63 296
+
+4. Submission, i.e., ZIP file name
+PotTS-B.output
+PotTS-D.output
+
+5. System specs
+
+- 5.1 Core approach
+
+  Character-level deep convolutional neural network.
+
+- 5.2 Supervised or unsupervised
+
+  supervised
+
+- 5.3 Important/interesting/novel features used
+
+  We use a deep convolutuion neural network approach that takes
+  character embeddings as its input.
+
+  (1) In the first stage, three sets of convolutional filters (each
+  consisting of three subsets with 4, 8, and 12 filters of width 3, 4,
+  and 5 respecitvely) generate character convolutions which are
+  max-pooled over time;
+
+  (2) Next, max character convoultions obtained by the second set of
+  conv filters are subtracted from the max convs obtained by the first
+  set and put as input into the sigmoid function.  The resulting
+  output is multiplied with the results of the third set, which are
+  previously processed with the hyperbolic tanget function;
+
+  (3) The resulting vector from step 2 is multiplied with a transition
+  matrix and subsequently processed using the sigmoid function;
+
+  (4) Next, the output is passed through a dropout layer;
+
+  (5) After dot-multiplying the results from the previous step with
+  the final transition matrix, we obtain the sigmoid of this
+  dot-product, which is supposed to predict 1 on positive inputs and 0
+  on negative instances.
+
+  (6) the cost function we use is:
+  $cost = y * (1 - pred) + (1 - y) * pred$,
+  where $y$ denotes the gold label of the instance and $pred$ is its
+  predicted score.
+  We update the weights of the classifier by optimizing the above cost
+  function using rmsprop.
+
+
+- 5.4 Important/interesting/novel tools used
+
+  * Theano (Python deep-learning library)
+  * Lasagne (Python deep-learning library)
+
+- 5.5 Significant data pre/post-processing
+
+  no preprocessing (not even tokenization) is done except for
+  lowercasing the input strings and removing stop words
+
+- 5.6 Other data used (outside of the provided)
+
+  * Sentiment Clues Lexicon (Wilson, 2005);
+  * NRC Hashtag Affirmative Context Sentiment Lexicon (Kiritchenko, 2014)
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+
+  training dataset: 3,968 tweets;
+  development dataset: 1,210 messages;
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+
+  nope
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+
+  nope
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+
+  nope
+
+6 References (if applicable)
+@inproceedings{Wilson:05,
+  author    = {Theresa Wilson and Janyce Wiebe and Paul Hoffmann},
+  title     = {Recognizing Contextual Polarity in Phrase-Level
+                  Sentiment Analysis},
+  booktitle = {{HLT/EMNLP} 2005, Human Language Technology Conference
+                  and Conference on Empirical Methods in Natural
+                  Language Processing, Proceedings of the Conference,
+                  6-8 October 2005, Vancouver, British Columbia,
+                  Canada},
+  year      = {2005},
+  crossref  = {DBLP:conf/emnlp/2005},
+  url       = {http://acl.ldc.upenn.edu/H/H05/H05-1044.pdf},
+  timestamp = {Thu, 21 Dec 2006 10:35:02 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/naacl/WilsonWH05},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{DBLP:journals/jair/KiritchenkoZM14,
+  author    = {Svetlana Kiritchenko and
+               Xiaodan Zhu and
+               Saif M. Mohammad},
+  title     = {Sentiment Analysis of Short Informal Texts},
+  journal   = {J. Artif. Intell. Res. {(JAIR)}},
+  volume    = {50},
+  pages     = {723--762},
+  year      = {2014},
+  url       = {http://dx.doi.org/10.1613/jair.4272},
+  doi       = {10.1613/jair.4272},
+  timestamp = {Mon, 08 Sep 2014 15:40:06 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/jair/KiritchenkoZM14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}

@@ -3,18 +3,21 @@ import time
 
 from load_data import load_pickle
 
-(test, submit_predict) = load_pickle("./tmp/submit.p")
+(test, submit_predict) = load_pickle("./tmp/submit_cnn.p")
 ids, topics, texts = test
 
 ratings = []
+cut_offs = [0.2, 0.4, 0.6, 0.8]
+# cut_offs = [0.125, 0.375, 0.625, 0.875]
+
 for score in submit_predict:
-    if score > 0.875:
+    if score > cut_offs[3]:
         s = 2
-    elif score > 0.625:
+    elif score > cut_offs[2]:
         s = 1
-    elif score > 0.375:
+    elif score > cut_offs[1]:
         s = 0
-    elif score > 0.125:
+    elif score > cut_offs[0]:
         s = -1
     else:
         s = -2

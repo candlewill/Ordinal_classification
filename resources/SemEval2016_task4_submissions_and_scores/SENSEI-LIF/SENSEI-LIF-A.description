@@ -1,0 +1,48 @@
+1. Team ID
+??? (We didn't receive any Team ID)
+
+2. Team affiliation
+Aix-Marseille University - CNRS - LIF
+
+3. Contact information
+mickael.rouvier@gmail.com
+
+4. Submission, i.e., ZIP file name
+LIF-A.output
+
+5. System specs
+
+- 5.1 Core approach
+The core approach is based on Multi Embedding Fusion. We learned three Deep-CNN-Text-Classification based on three different set of Word embedding (classical skipgram, skipgram+Part-Of-Speech, skipgram+Emoticons). The main novelty of our approach is based on fusion at the embedding level. By embedding we mean feature representation given by the hidden-layer of the CNN-Text-Classification. 
+
+- 5.2 Supervised or unsupervised
+Supervised approach.
+
+- 5.3 Important/interesting/novel features used
+Multi Embedding Fusion
+
+
+- 5.4 Important/interesting/novel tools used
+All the systems+word-embedding+extra-corpus will be release in order to reproduce the results.
+
+- 5.5 Significant data pre/post-processing
+None
+
+- 5.6 Other data used (outside of the provided)
+None
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+* Concerning Deep-CNN-Text-Classification: the training corpus are those given in the previous Semeval13,14,15,16 (around 18.000 Tweets)
+* Concerning Word-Embedding: the corpus is composed of 70Millions of tweets
+
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+
+6 References (if applicable)

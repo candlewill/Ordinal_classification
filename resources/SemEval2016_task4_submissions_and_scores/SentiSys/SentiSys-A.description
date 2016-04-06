@@ -1,0 +1,48 @@
+1. Team ID
+SentiSys
+
+
+2. Team affiliation
+Aix-Marseille university
+
+
+3. Contact information
+Hussam Hamdan: hamdan.hussam@gmail.com
+
+4. Submission, i.e., ZIP file name
+SentiSys
+
+5. System specs
+
+
+- 5.1 Core approach
+
+	- 5.2 Supervised or unsupervised
+ supervised: logistic regression
+
+	- 5.3 Important/interesting/novel features used
+1- ngram: 1_2_3 grams.
+2- Brown dictionary: 1000 features  have been extracted
+3- sentiment lexicons:
+ - automatic constructed sentiment: 3 lexicons
+ - Manual constructed sentiment lexicons: 2 lexicons
+
+	- 5.4 Important/interesting/novel tools used
+
+	- 5.5 Significant data pre/post-processing
+
+	- 5.6 Other data used (outside of the provided)
+
+	- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+whole training data provided in 2013
+
+	- 5.8 Did you participate in SemEval-2013 task 2?
+yes
+
+	- 5.9 Did you participate in SemEval-2014 task 9?
+yes
+
+	- 5.10 Did you participate in SemEval-2015 task 10?
+yes
+
+	6 References (if applicable)

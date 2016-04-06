@@ -1,0 +1,19 @@
+TWEESTER - paper 152
+
+
+Elisavet Palogiannidi, School of ECE, Technical University of Crete, epalogiannidi@isc.tuc.gr
+Athanasia Kolovou, Department of Informatics, University of Athens, akolovou@di.uoa.gr
+Fenia Christopoulou, School of ECE, National Technical University of Athens, el10136@mail.ntua.gr
+Filippos Kokkinos, School of ECE, National Technical University of Athens,el11142@mail.ntua.gr
+Elias Iosif, School of ECE, National Technical University of Athens, iosife@central.ntua.gr
+Nikolaos Malandrakis, Signal Analysis and Interpretation Laboratory (SAIL), malandra@usc.edu
+Haris Papageorgiou, Institute for Language & Speech Processing - ILSP,xaris@ilsp.athena-innovation.gr
+Shrikanth Narayanan, Signal Analysis and Interpretation Laboratory (SAIL), shri@sipi.usc.edu
+Alexandros Potamianos, School of ECE, National Technical University of Athens , apotam@central
+
+System Specs:
+The core approach of thes system is the same with the system that submitted for SubtaskA. 
+It contains both supervised and unsupervised systems and the final decision is taken by a late fusion scheme.
+Affective features were extracted using a mixture of semantic models over clusters with semantically related sentences.
+The subsystems were trained on the data provided by SemEval-2016 for task B.
+Some of the team members have participated in SemEval-2013 task 2 and SemEval-2014 task 9.

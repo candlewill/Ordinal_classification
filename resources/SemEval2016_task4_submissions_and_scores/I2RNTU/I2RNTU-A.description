@@ -1,0 +1,58 @@
+1. Team ID
+I2RNTU
+
+2. Team affiliation
+Human Language Technology Department, Institute for Infocomm Research, A*STAR, Singapore and
+School of Computer Engineering, Nanyang Technological University, Singapore
+
+3. Contact information
+Dong-Yan Huang, huang@i2r.a-star.edu.sg
+Zhengchen Zhang, zhangzc@i2r.a-star.edu.sg
+Chen Zhang, CZHANG017@e.ntu.edu.sg
+Fuxiang Wu, wfxownedu@gmail.com
+Minghui Dong, mhdong@i2r.a-star.edu.sg
+
+4. Submission, i.e., ZIP file name
+Our submission ID in the START system is 129.
+
+5. System specs
+
+- 5.1 Core approach
+The system is a fusion of four systems. Three of them are systems proposed by the participants of previous SemEval. They are NRC-Canada [1], GU-MLT-LT [2], and KLUE [3]. These three systems were implemented in Webis System[7]. We use the code of webis system here. A new classifier we introduced is Asymmetric Simple Partial Least Squares (SIMPLS) method, which is illustrated to give better prediction accuracy to the class with the smaller data number [4].
+
+- 5.2 Supervised or unsupervised
+Supervised
+
+- 5.3 Important/interesting/novel features used
+Word embedding is the new feature we used. We collect about 69 million positive tweets, 19 million neutral tweets, and 19 million negative tweets. A vector of each word is generated on the three data sets respectively. Hence, we generate three vectors for each word, and each vector has 100 dimensions. The toolkit word2vec is used. The feature is used in the ASIMPLS method, while not used in the other three systems.
+
+- 5.4 Important/interesting/novel tools used
+Word2Vec [5]
+
+- 5.5 Significant data pre/post-processing
+The tweets are preprocessed using CMU tweet Part-of-Speech Tagging tool [6].
+
+- 5.6 Other data used (outside of the provided)
+We collect tweets online using the twitter4j library [8]. As mentioned in 5.3, we use about 69 million positive tweets, 19 million neutral tweets, and 19 million negative tweets. These tweets are labelled automatically. If a tweet contains a happy/sad emoticon, we think it is a positive/negative tweet. For the neutral tweets, we search keywords like sports, news, etc.
+
+- 5.7 Size of the training Twitter data used (some teams could only download part of the data)
+We use 16682 tweets to train and tune our system. For the 2016 data, we downloaded 5348 training tweets, 1704 dev tweets, and 1781 devtest tweets.
+
+- 5.8 Did you participate in SemEval-2013 task 2?
+No
+
+- 5.9 Did you participate in SemEval-2014 task 9?
+No
+
+- 5.10 Did you participate in SemEval-2015 task 10?
+No
+
+6 References (if applicable)
+[1] Saif M. Mohammad, Svetlana Kiritchenko, and Xiaodan Zhu.  2013.  NRC-Canada:  Building the state-of-the-art  in sentiment  analysis  of tweets. In Second  Joint Conference on Lexical and Computational Semantics (*SEM), Volume 2:  Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval2013), pages 321–327.
+[2] Tobias Günther and Lenz Furrer.   2013.   GU-MLT-LT: Sentiment  analysis  of  short  messages  using  linguistic  features  and  stochastic  gradient  descent. In Second Joint Conference on Lexical and Computational Semantics (*SEM), Volume 2: Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013), pages 328–332.
+[3] Thomas  Proisl,  Paul  Greiner,  Stefan  Evert,  and  Besim Kabashi.   2013.   Klue:  Simple  and  robust  methods for polarity classification.  In Second Joint Conference on Lexical and Computational Semantics (*SEM), Volume 2: Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013), pages 395–401.
+[4] Huang D Y, Zhang Z, Ge S S. Speaker state classification based on fusion of asymmetric simple partial least squares (SIMPLS) and support vector machines[J]. Computer Speech & Language, 2014, 28(2): 392-419.
+[5] https://code.google.com/archive/p/word2vec/
+[6] Kevin Gimpel, Nathan Schneider, Brendan O'Connor, Dipanjan Das, Daniel Mills, Jacob Eisenstein, Michael Heilman, Dani Yogatama, Jeffrey Flanigan, and Noah A. Smith. Part-of-Speech Tagging for Twitter: Annotation, Features, and Experiments. In Proceedings of ACL 2011.
+[7] Büchner M H M P M, Stein B. Webis: An Ensemble for Twitter Sentiment Detection[J]. SemEval-2015, 2015: 582.
+[8] http://twitter4j.org/en/index.html
