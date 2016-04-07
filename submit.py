@@ -3,9 +3,10 @@ import time
 
 from load_data import load_pickle
 
-(test, submit_predict) = load_pickle("./tmp/submit_cnn.p")
+(test, submit_predict) = load_pickle("./tmp/submit_cnn_valid.p")
 ids, topics, texts = test
-
+print(len(submit_predict))
+exit()
 ratings = []
 cut_offs = [0.2, 0.4, 0.6, 0.8]
 # cut_offs = [0.125, 0.375, 0.625, 0.875]
@@ -29,6 +30,8 @@ for t in texts:
 timestr = time.strftime("%Y%m%d-%H%M%S")
 path = "./tmp/submit" + str(timestr) + ".csv"
 
+print(len(ids), len(topics), len(texts))
+# exit()
 with open(path, 'w', newline='') as f:
     w = csv.writer(f, delimiter='\t')
     for i in range(len(ids)):

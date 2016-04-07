@@ -1,0 +1,1781 @@
+1	sony	1
+2	sony	1
+3	sony	0
+4	sony	0
+5	sony	1
+6	sony	1
+7	sony	0
+8	sony	0
+9	sony	0
+10	sony	1
+11	sony	1
+12	sony	1
+13	sony	1
+14	sony	1
+15	sony	1
+16	sony	1
+17	sony	1
+18	sony	0
+19	sony	1
+20	sony	0
+21	sony	1
+22	sony	1
+23	sony	1
+24	sony	1
+25	sony	1
+26	sony	1
+27	sony	0
+28	sony	0
+29	sony	-1
+30	sony	1
+31	sony	0
+32	sony	0
+33	sony	2
+34	sony	1
+35	sony	-1
+36	sony	0
+37	sony	1
+38	sony	1
+39	sony	1
+40	sony	1
+41	sony	1
+42	sony	1
+43	sony	0
+44	sony	0
+45	sony	1
+46	sony	1
+47	sony	0
+48	sony	0
+49	sony	0
+50	sony	0
+51	sony	1
+52	sony	1
+53	sony	1
+54	sony	0
+55	sony	1
+56	sony	1
+57	sony	1
+58	sony	1
+59	sony	1
+60	sony	2
+61	sony	0
+62	sony	1
+63	sony	0
+64	sony	0
+65	sony	1
+66	sony	1
+67	sony	1
+68	sony	1
+69	sony	1
+70	sony	1
+71	sony	1
+72	sony	0
+73	sony	0
+74	sony	0
+75	sony	1
+76	sony	1
+77	sony	0
+78	sony	1
+79	sony	1
+80	sony	1
+81	sony	1
+82	sony	0
+83	sony	1
+84	sony	0
+85	sony	0
+86	sony	0
+87	sony	-1
+88	sony	1
+89	sony	1
+90	sony	1
+91	sony	2
+92	sony	0
+93	star wars	0
+94	star wars	1
+95	star wars	1
+96	star wars	1
+97	star wars	1
+98	star wars	1
+99	star wars	0
+100	star wars	0
+101	star wars	1
+102	star wars	0
+103	star wars	0
+104	star wars	0
+105	star wars	0
+106	star wars	0
+107	star wars	1
+108	star wars	1
+109	star wars	1
+110	star wars	0
+111	star wars	0
+112	star wars	0
+113	star wars	1
+114	star wars	0
+115	star wars	0
+116	star wars	1
+117	star wars	0
+118	star wars	0
+119	star wars	1
+120	star wars	1
+121	star wars	1
+122	star wars	1
+123	star wars	0
+124	star wars	1
+125	star wars	0
+126	star wars	0
+127	star wars	1
+128	star wars	1
+129	star wars	2
+130	star wars	1
+131	star wars	1
+132	star wars	0
+133	star wars	1
+134	star wars	0
+135	star wars	1
+136	star wars	1
+137	star wars	1
+138	star wars	1
+139	star wars	1
+140	star wars	1
+141	star wars	1
+142	star wars	1
+143	star wars	1
+144	star wars	1
+145	star wars	0
+146	star wars	0
+147	star wars	0
+148	star wars	0
+149	star wars	0
+150	star wars	0
+151	star wars	0
+152	star wars	1
+153	star wars	1
+154	star wars	0
+155	star wars	1
+156	star wars	1
+157	star wars	1
+158	star wars	1
+159	star wars	1
+160	star wars	1
+161	star wars	1
+162	star wars	0
+163	star wars	1
+164	star wars	1
+165	star wars	1
+166	star wars	1
+167	star wars	2
+168	star wars	0
+169	star wars	0
+170	star wars	0
+171	star wars	1
+172	star wars	1
+173	star wars	0
+174	star wars	1
+175	star wars	-1
+176	star wars	1
+177	star wars	1
+178	star wars	1
+179	star wars	1
+180	star wars	2
+181	star wars	1
+182	star wars	1
+183	sting	1
+184	sting	-1
+185	sting	0
+186	sting	0
+187	sting	0
+188	sting	0
+189	sting	0
+190	sting	-1
+191	sting	1
+192	sting	0
+193	sting	0
+194	sting	1
+195	sting	0
+196	sting	1
+197	sting	0
+198	sting	0
+199	sting	0
+200	sting	0
+201	sting	1
+202	sting	0
+203	sting	0
+204	sting	1
+205	sting	1
+206	sting	1
+207	sting	0
+208	sting	0
+209	sting	0
+210	sting	0
+211	sting	1
+212	sting	1
+213	sting	1
+214	sting	1
+215	sting	0
+216	sting	1
+217	sting	0
+218	sting	1
+219	sting	0
+220	sting	1
+221	sting	1
+222	sting	0
+223	sting	-1
+224	sting	1
+225	sting	-1
+226	sting	0
+227	sting	0
+228	sting	1
+229	sting	1
+230	sting	0
+231	sting	0
+232	sting	0
+233	sting	0
+234	sting	0
+235	sting	0
+236	sting	0
+237	sting	0
+238	sting	0
+239	sting	1
+240	sting	0
+241	sting	1
+242	sting	1
+243	sting	0
+244	sting	0
+245	sting	1
+246	sting	0
+247	sting	0
+248	sting	-2
+249	sting	0
+250	sting	0
+251	sting	1
+252	sting	-1
+253	sting	1
+254	sting	0
+255	sting	0
+256	sting	1
+257	sting	0
+258	sting	1
+259	sting	0
+260	sting	1
+261	sting	0
+262	sting	1
+263	sting	1
+264	sting	1
+265	sting	0
+266	sting	0
+267	sting	1
+268	sting	0
+269	sting	0
+270	t-mobile	2
+271	t-mobile	1
+272	t-mobile	1
+273	t-mobile	0
+274	t-mobile	1
+275	t-mobile	1
+276	t-mobile	1
+277	t-mobile	0
+278	t-mobile	1
+279	t-mobile	1
+280	t-mobile	1
+281	t-mobile	0
+282	t-mobile	1
+283	t-mobile	1
+284	t-mobile	1
+285	t-mobile	1
+286	t-mobile	1
+287	t-mobile	0
+288	t-mobile	1
+289	t-mobile	0
+290	t-mobile	1
+291	t-mobile	1
+292	t-mobile	1
+293	t-mobile	1
+294	t-mobile	0
+295	t-mobile	1
+296	t-mobile	1
+297	t-mobile	1
+298	t-mobile	1
+299	t-mobile	0
+300	t-mobile	0
+301	t-mobile	1
+302	t-mobile	1
+303	t-mobile	1
+304	t-mobile	1
+305	t-mobile	0
+306	t-mobile	1
+307	t-mobile	0
+308	t-mobile	0
+309	t-mobile	0
+310	t-mobile	0
+311	t-mobile	0
+312	t-mobile	-1
+313	t-mobile	1
+314	t-mobile	0
+315	t-mobile	0
+316	t-mobile	1
+317	t-mobile	1
+318	t-mobile	0
+319	t-mobile	0
+320	t-mobile	0
+321	t-mobile	1
+322	t-mobile	0
+323	t-mobile	-1
+324	t-mobile	0
+325	t-mobile	1
+326	t-mobile	-1
+327	t-mobile	1
+328	t-mobile	0
+329	t-mobile	1
+330	t-mobile	-1
+331	t-mobile	0
+332	t-mobile	0
+333	t-mobile	1
+334	t-mobile	-2
+335	t-mobile	1
+336	t-mobile	1
+337	t-mobile	1
+338	t-mobile	1
+339	t-mobile	1
+340	t-mobile	1
+341	t-mobile	0
+342	t-mobile	1
+343	t-mobile	0
+344	t-mobile	1
+345	t-mobile	1
+346	t-mobile	0
+347	t-mobile	1
+348	t-mobile	0
+349	t-mobile	0
+350	t-mobile	1
+351	t-mobile	0
+352	t-mobile	0
+353	t-mobile	1
+354	t-mobile	1
+355	t-mobile	1
+356	t-mobile	0
+357	t-mobile	1
+358	t-mobile	0
+359	taylor swift	1
+360	taylor swift	1
+361	taylor swift	1
+362	taylor swift	0
+363	taylor swift	1
+364	taylor swift	0
+365	taylor swift	1
+366	taylor swift	1
+367	taylor swift	1
+368	taylor swift	0
+369	taylor swift	1
+370	taylor swift	1
+371	taylor swift	1
+372	taylor swift	1
+373	taylor swift	1
+374	taylor swift	1
+375	taylor swift	1
+376	taylor swift	0
+377	taylor swift	1
+378	taylor swift	0
+379	taylor swift	0
+380	taylor swift	1
+381	taylor swift	1
+382	taylor swift	2
+383	taylor swift	2
+384	taylor swift	1
+385	taylor swift	1
+386	taylor swift	1
+387	taylor swift	1
+388	taylor swift	1
+389	taylor swift	1
+390	taylor swift	-2
+391	taylor swift	0
+392	taylor swift	1
+393	taylor swift	1
+394	taylor swift	1
+395	taylor swift	1
+396	taylor swift	0
+397	taylor swift	1
+398	taylor swift	1
+399	taylor swift	1
+400	taylor swift	1
+401	taylor swift	1
+402	taylor swift	1
+403	taylor swift	1
+404	taylor swift	0
+405	taylor swift	1
+406	taylor swift	1
+407	taylor swift	1
+408	taylor swift	1
+409	taylor swift	1
+410	taylor swift	1
+411	taylor swift	1
+412	taylor swift	1
+413	taylor swift	1
+414	taylor swift	0
+415	taylor swift	1
+416	taylor swift	1
+417	taylor swift	1
+418	taylor swift	1
+419	taylor swift	1
+420	taylor swift	1
+421	taylor swift	1
+422	taylor swift	1
+423	taylor swift	1
+424	taylor swift	0
+425	taylor swift	1
+426	taylor swift	1
+427	taylor swift	1
+428	taylor swift	1
+429	taylor swift	1
+430	taylor swift	-1
+431	taylor swift	1
+432	taylor swift	1
+433	taylor swift	1
+434	taylor swift	1
+435	taylor swift	0
+436	taylor swift	1
+437	taylor swift	1
+438	taylor swift	0
+439	taylor swift	1
+440	ted 2	0
+441	ted 2	1
+442	ted 2	1
+443	ted 2	0
+444	ted 2	0
+445	ted 2	1
+446	ted 2	1
+447	ted 2	1
+448	ted 2	1
+449	ted 2	1
+450	ted 2	0
+451	ted 2	1
+452	ted 2	1
+453	ted 2	0
+454	ted 2	1
+455	ted 2	1
+456	ted 2	1
+457	ted 2	1
+458	ted 2	1
+459	ted 2	1
+460	ted 2	1
+461	ted 2	2
+462	ted 2	-1
+463	ted 2	1
+464	ted 2	1
+465	ted 2	1
+466	ted 2	1
+467	ted 2	1
+468	ted 2	1
+469	ted 2	1
+470	ted 2	0
+471	ted 2	1
+472	ted 2	1
+473	ted 2	1
+474	ted 2	0
+475	ted 2	1
+476	ted 2	1
+477	ted 2	1
+478	ted 2	2
+479	ted 2	1
+480	ted 2	1
+481	ted 2	1
+482	ted 2	0
+483	ted 2	-1
+484	ted 2	1
+485	ted 2	0
+486	ted 2	1
+487	ted 2	1
+488	ted 2	1
+489	ted 2	1
+490	ted 2	1
+491	ted 2	0
+492	ted 2	1
+493	ted 2	1
+494	ted 2	2
+495	ted 2	2
+496	ted 2	1
+497	ted 2	-1
+498	ted 2	2
+499	ted 2	1
+500	ted 2	1
+501	ted 2	0
+502	ted 2	1
+503	ted 2	0
+504	ted 2	1
+505	ted 2	1
+506	ted 2	1
+507	ted 2	1
+508	ted 2	0
+509	ted 2	1
+510	ted 2	1
+511	ted 2	0
+512	ted 2	-1
+513	ted 2	1
+514	ted 2	1
+515	ted 2	0
+516	ted 2	1
+517	ted 2	1
+518	ted 2	0
+519	ted 2	-1
+520	ted 2	1
+521	ted 2	1
+522	teen wolf	1
+523	teen wolf	1
+524	teen wolf	0
+525	teen wolf	-1
+526	teen wolf	1
+527	teen wolf	0
+528	teen wolf	0
+529	teen wolf	1
+530	teen wolf	0
+531	teen wolf	1
+532	teen wolf	-1
+533	teen wolf	1
+534	teen wolf	1
+535	teen wolf	0
+536	teen wolf	0
+537	teen wolf	-1
+538	teen wolf	-1
+539	teen wolf	0
+540	teen wolf	0
+541	teen wolf	1
+542	teen wolf	0
+543	teen wolf	1
+544	teen wolf	0
+545	teen wolf	0
+546	teen wolf	0
+547	teen wolf	-1
+548	teen wolf	1
+549	teen wolf	0
+550	teen wolf	0
+551	teen wolf	0
+552	teen wolf	0
+553	teen wolf	-1
+554	teen wolf	0
+555	teen wolf	-1
+556	teen wolf	1
+557	teen wolf	0
+558	teen wolf	1
+559	teen wolf	-2
+560	teen wolf	0
+561	teen wolf	-1
+562	teen wolf	0
+563	teen wolf	0
+564	teen wolf	-1
+565	teen wolf	0
+566	teen wolf	-2
+567	teen wolf	1
+568	teen wolf	1
+569	teen wolf	1
+570	teen wolf	1
+571	teen wolf	0
+572	teen wolf	0
+573	teen wolf	1
+574	teen wolf	-1
+575	teen wolf	1
+576	teen wolf	1
+577	teen wolf	0
+578	teen wolf	0
+579	teen wolf	2
+580	teen wolf	1
+581	teen wolf	1
+582	teen wolf	0
+583	teen wolf	0
+584	teen wolf	1
+585	teen wolf	0
+586	teen wolf	1
+587	teen wolf	0
+588	teen wolf	0
+589	teen wolf	0
+590	teen wolf	1
+591	teen wolf	0
+592	teen wolf	0
+593	teen wolf	0
+594	teen wolf	-1
+595	teen wolf	0
+596	teen wolf	0
+597	teen wolf	0
+598	teen wolf	0
+599	teen wolf	0
+600	teen wolf	0
+601	teen wolf	0
+602	teen wolf	0
+603	teen wolf	1
+604	teen wolf	0
+605	teen wolf	1
+606	teen wolf	0
+607	tgif	1
+608	tgif	1
+609	tgif	2
+610	tgif	1
+611	tgif	2
+612	tgif	2
+613	tgif	1
+614	tgif	1
+615	tgif	1
+616	tgif	1
+617	tgif	1
+618	tgif	1
+619	tgif	2
+620	tgif	1
+621	tgif	1
+622	tgif	1
+623	tgif	1
+624	tgif	1
+625	tgif	1
+626	tgif	1
+627	tgif	1
+628	tgif	1
+629	tgif	1
+630	tgif	1
+631	tgif	1
+632	tgif	1
+633	tgif	2
+634	tgif	2
+635	tgif	1
+636	tgif	1
+637	tgif	1
+638	tgif	1
+639	tgif	2
+640	tgif	1
+641	tgif	0
+642	tgif	2
+643	tgif	1
+644	tgif	1
+645	tgif	2
+646	tgif	1
+647	tgif	1
+648	tgif	1
+649	tgif	1
+650	tgif	1
+651	tgif	1
+652	tgif	1
+653	tgif	1
+654	tgif	1
+655	tgif	1
+656	tgif	1
+657	tgif	1
+658	tgif	2
+659	tgif	1
+660	tgif	1
+661	tgif	2
+662	tgif	1
+663	tgif	1
+664	tgif	1
+665	tgif	1
+666	tgif	1
+667	tgif	1
+668	tgif	2
+669	tgif	2
+670	tgif	1
+671	tgif	2
+672	tgif	2
+673	tgif	1
+674	tgif	1
+675	tgif	1
+676	tgif	1
+677	tgif	1
+678	tgif	1
+679	tgif	2
+680	tgif	1
+681	tgif	2
+682	tgif	1
+683	tgif	1
+684	tgif	1
+685	tgif	1
+686	tgif	2
+687	tgif	1
+688	tgif	1
+689	tgif	1
+690	tgif	1
+691	tgif	1
+692	tgif	1
+693	tgif	1
+694	tgif	1
+695	tgif	0
+696	tgif	0
+697	tgif	1
+698	tgif	2
+699	tgif	1
+700	tgif	1
+701	tiger woods	1
+702	tiger woods	1
+703	tiger woods	1
+704	tiger woods	1
+705	tiger woods	0
+706	tiger woods	0
+707	tiger woods	1
+708	tiger woods	1
+709	tiger woods	0
+710	tiger woods	1
+711	tiger woods	1
+712	tiger woods	1
+713	tiger woods	0
+714	tiger woods	1
+715	tiger woods	0
+716	tiger woods	0
+717	tiger woods	1
+718	tiger woods	1
+719	tiger woods	1
+720	tiger woods	1
+721	tiger woods	1
+722	tiger woods	1
+723	tiger woods	1
+724	tiger woods	1
+725	tiger woods	1
+726	tiger woods	1
+727	tiger woods	0
+728	tiger woods	1
+729	tiger woods	1
+730	tiger woods	1
+731	tiger woods	1
+732	tiger woods	1
+733	tiger woods	1
+734	tiger woods	1
+735	tiger woods	1
+736	tiger woods	1
+737	tiger woods	0
+738	tiger woods	0
+739	tiger woods	-1
+740	tiger woods	1
+741	tiger woods	1
+742	tiger woods	-1
+743	tiger woods	0
+744	tiger woods	0
+745	tiger woods	1
+746	tiger woods	1
+747	tiger woods	0
+748	tiger woods	1
+749	tiger woods	0
+750	tiger woods	1
+751	tiger woods	1
+752	tiger woods	1
+753	tiger woods	0
+754	tiger woods	1
+755	tiger woods	0
+756	tiger woods	1
+757	tiger woods	1
+758	tiger woods	1
+759	tiger woods	-1
+760	tiger woods	1
+761	tiger woods	2
+762	tiger woods	0
+763	tiger woods	0
+764	tiger woods	0
+765	tiger woods	-1
+766	tiger woods	0
+767	tiger woods	1
+768	tiger woods	1
+769	tiger woods	1
+770	tiger woods	1
+771	tiger woods	0
+772	tiger woods	1
+773	tiger woods	0
+774	tiger woods	1
+775	tiger woods	0
+776	tiger woods	1
+777	tiger woods	1
+778	tiger woods	1
+779	tiger woods	1
+780	tiger woods	1
+781	tiger woods	1
+782	tiger woods	-1
+783	tiger woods	1
+784	tiger woods	1
+785	tiger woods	1
+786	tiger woods	0
+787	tiger woods	1
+788	tiger woods	1
+789	tiger woods	0
+790	tiger woods	1
+791	tiger woods	1
+792	tiger woods	1
+793	tiger woods	1
+794	tom cruise	0
+795	tom cruise	0
+796	tom cruise	1
+797	tom cruise	1
+798	tom cruise	1
+799	tom cruise	0
+800	tom cruise	1
+801	tom cruise	1
+802	tom cruise	0
+803	tom cruise	1
+804	tom cruise	0
+805	tom cruise	1
+806	tom cruise	1
+807	tom cruise	-1
+808	tom cruise	0
+809	tom cruise	-1
+810	tom cruise	0
+811	tom cruise	0
+812	tom cruise	1
+813	tom cruise	1
+814	tom cruise	1
+815	tom cruise	0
+816	tom cruise	1
+817	tom cruise	1
+818	tom cruise	1
+819	tom cruise	1
+820	tom cruise	1
+821	tom cruise	1
+822	tom cruise	1
+823	tom cruise	1
+824	tom cruise	1
+825	tom cruise	1
+826	tom cruise	1
+827	tom cruise	1
+828	tom cruise	1
+829	tom cruise	1
+830	tom cruise	0
+831	tom cruise	2
+832	tom cruise	1
+833	tom cruise	1
+834	tom cruise	1
+835	tom cruise	1
+836	tom cruise	0
+837	tom cruise	0
+838	tom cruise	1
+839	tom cruise	1
+840	tom cruise	0
+841	tom cruise	1
+842	tom cruise	0
+843	tom cruise	0
+844	tom cruise	0
+845	tom cruise	0
+846	tom cruise	-1
+847	tom cruise	2
+848	tom cruise	1
+849	tom cruise	1
+850	tom cruise	1
+851	tom cruise	0
+852	tom cruise	1
+853	tom cruise	1
+854	tom cruise	1
+855	tom cruise	1
+856	tom cruise	1
+857	tom cruise	1
+858	tom cruise	1
+859	tom cruise	1
+860	tom cruise	0
+861	tom cruise	1
+862	tom cruise	1
+863	tom cruise	0
+864	tom cruise	0
+865	tom cruise	1
+866	tom cruise	1
+867	tom cruise	0
+868	tom cruise	0
+869	tom cruise	0
+870	tom cruise	1
+871	tom cruise	0
+872	tom cruise	1
+873	tom cruise	1
+874	tom cruise	1
+875	tom cruise	1
+876	tom cruise	1
+877	tom cruise	-1
+878	tom cruise	0
+879	tom cruise	2
+880	tom cruise	0
+881	tom cruise	1
+882	tom cruise	0
+883	tom cruise	1
+884	tom cruise	0
+885	tom cruise	1
+886	tom cruise	0
+887	tom cruise	0
+888	tom cruise	0
+889	tory	1
+890	tory	0
+891	tory	0
+892	tory	-1
+893	tory	0
+894	tory	0
+895	tory	-1
+896	tory	0
+897	tory	-1
+898	tory	0
+899	tory	0
+900	tory	-1
+901	tory	0
+902	tory	0
+903	tory	1
+904	tory	-1
+905	tory	0
+906	tory	0
+907	tory	1
+908	tory	-1
+909	tory	0
+910	tory	0
+911	tory	-2
+912	tory	1
+913	tory	1
+914	tory	-1
+915	tory	1
+916	tory	0
+917	tory	1
+918	tory	0
+919	tory	1
+920	tory	1
+921	tory	-1
+922	tory	1
+923	tory	0
+924	tory	1
+925	tory	-1
+926	tory	0
+927	tory	0
+928	tory	0
+929	tory	-1
+930	tory	1
+931	tory	-1
+932	tory	0
+933	tory	0
+934	tory	1
+935	tory	0
+936	tory	0
+937	tory	0
+938	tory	0
+939	tory	0
+940	tory	1
+941	tory	1
+942	tory	0
+943	tory	0
+944	tory	1
+945	tory	0
+946	tory	0
+947	tory	0
+948	tory	0
+949	tory	0
+950	tory	0
+951	tory	0
+952	tory	0
+953	tory	1
+954	tory	0
+955	tory	0
+956	tory	0
+957	tory	-1
+958	tory	-2
+959	tory	-1
+960	tory	0
+961	tory	1
+962	tory	0
+963	tory	0
+964	tory	0
+965	tory	-1
+966	tory	1
+967	tory	0
+968	tory	-1
+969	tory	0
+970	tory	1
+971	tory	0
+972	tory	-1
+973	tory	0
+974	tory	-1
+975	tory	0
+976	tory	1
+977	tory	0
+978	tory	-1
+979	tory	1
+980	tory	-1
+981	tory	0
+982	tory	1
+983	tory	1
+984	trump	-1
+985	trump	0
+986	trump	-1
+987	trump	1
+988	trump	0
+989	trump	0
+990	trump	0
+991	trump	-1
+992	trump	0
+993	trump	0
+994	trump	1
+995	trump	1
+996	trump	0
+997	trump	1
+998	trump	0
+999	trump	1
+1000	trump	0
+1001	trump	1
+1002	trump	0
+1003	trump	0
+1004	trump	1
+1005	trump	1
+1006	trump	0
+1007	trump	0
+1008	trump	-1
+1009	trump	0
+1010	trump	0
+1011	trump	1
+1012	trump	-1
+1013	trump	0
+1014	trump	-1
+1015	trump	0
+1016	trump	1
+1017	trump	0
+1018	trump	0
+1019	trump	1
+1020	trump	0
+1021	trump	0
+1022	trump	0
+1023	trump	1
+1024	trump	0
+1025	trump	0
+1026	trump	1
+1027	trump	1
+1028	trump	1
+1029	trump	1
+1030	trump	-1
+1031	trump	1
+1032	trump	0
+1033	trump	1
+1034	trump	1
+1035	trump	0
+1036	trump	0
+1037	trump	1
+1038	trump	0
+1039	trump	0
+1040	trump	2
+1041	trump	1
+1042	trump	1
+1043	trump	1
+1044	trump	-1
+1045	trump	-1
+1046	trump	0
+1047	trump	0
+1048	trump	0
+1049	trump	0
+1050	trump	0
+1051	trump	0
+1052	trump	1
+1053	trump	-1
+1054	trump	0
+1055	trump	0
+1056	trump	-1
+1057	trump	0
+1058	trump	1
+1059	trump	1
+1060	trump	0
+1061	trump	0
+1062	trump	-1
+1063	trump	0
+1064	trump	1
+1065	trump	0
+1066	trump	1
+1067	trump	0
+1068	trump	0
+1069	trump	0
+1070	trump	0
+1071	trump	0
+1072	tsipras	-1
+1073	tsipras	0
+1074	tsipras	0
+1075	tsipras	0
+1076	tsipras	0
+1077	tsipras	0
+1078	tsipras	-1
+1079	tsipras	0
+1080	tsipras	0
+1081	tsipras	-1
+1082	tsipras	0
+1083	tsipras	0
+1084	tsipras	0
+1085	tsipras	0
+1086	tsipras	0
+1087	tsipras	0
+1088	tsipras	0
+1089	tsipras	0
+1090	tsipras	0
+1091	tsipras	0
+1092	tsipras	0
+1093	tsipras	0
+1094	tsipras	1
+1095	tsipras	-1
+1096	tsipras	1
+1097	tsipras	-1
+1098	tsipras	-1
+1099	tsipras	0
+1100	tsipras	0
+1101	tsipras	-1
+1102	tsipras	0
+1103	tsipras	-1
+1104	tsipras	-2
+1105	tsipras	-1
+1106	tsipras	-1
+1107	tsipras	0
+1108	tsipras	0
+1109	tsipras	-1
+1110	tsipras	-1
+1111	tsipras	-1
+1112	tsipras	-1
+1113	tsipras	-1
+1114	tsipras	-1
+1115	tsipras	-1
+1116	tsipras	-1
+1117	tsipras	1
+1118	tsipras	-1
+1119	tsipras	0
+1120	tsipras	0
+1121	tsipras	-1
+1122	tsipras	-1
+1123	tsipras	0
+1124	tsipras	0
+1125	tsipras	0
+1126	tsipras	0
+1127	tsipras	0
+1128	tsipras	0
+1129	tsipras	-1
+1130	tsipras	0
+1131	tsipras	1
+1132	tsipras	0
+1133	tsipras	-1
+1134	tsipras	0
+1135	tsipras	0
+1136	tsipras	0
+1137	tsipras	0
+1138	tsipras	1
+1139	tsipras	-1
+1140	tsipras	0
+1141	tsipras	-1
+1142	tsipras	0
+1143	tsipras	1
+1144	tsipras	0
+1145	tsipras	1
+1146	tsipras	0
+1147	tsipras	0
+1148	tsipras	0
+1149	tsipras	0
+1150	tsipras	0
+1151	tsipras	-1
+1152	tsipras	1
+1153	tsipras	0
+1154	tsipras	0
+1155	tsipras	0
+1156	tsipras	0
+1157	tsipras	0
+1158	tsipras	1
+1159	tsipras	-1
+1160	tsipras	0
+1161	tsipras	0
+1162	tsipras	0
+1163	tsipras	0
+1164	ukip	0
+1165	ukip	1
+1166	ukip	-1
+1167	ukip	0
+1168	ukip	1
+1169	ukip	0
+1170	ukip	0
+1171	ukip	0
+1172	ukip	0
+1173	ukip	0
+1174	ukip	0
+1175	ukip	0
+1176	ukip	1
+1177	ukip	0
+1178	ukip	1
+1179	ukip	0
+1180	ukip	1
+1181	ukip	-1
+1182	ukip	0
+1183	ukip	1
+1184	ukip	0
+1185	ukip	-1
+1186	ukip	0
+1187	ukip	1
+1188	ukip	0
+1189	ukip	-1
+1190	ukip	1
+1191	ukip	1
+1192	ukip	1
+1193	ukip	1
+1194	ukip	0
+1195	ukip	0
+1196	ukip	1
+1197	ukip	-1
+1198	ukip	0
+1199	ukip	-1
+1200	ukip	-1
+1201	ukip	-1
+1202	ukip	1
+1203	ukip	1
+1204	ukip	0
+1205	ukip	-1
+1206	ukip	0
+1207	ukip	-1
+1208	ukip	0
+1209	ukip	-1
+1210	ukip	0
+1211	ukip	0
+1212	ukip	0
+1213	ukip	1
+1214	ukip	0
+1215	ukip	-1
+1216	ukip	1
+1217	ukip	1
+1218	ukip	0
+1219	ukip	-1
+1220	ukip	0
+1221	ukip	0
+1222	ukip	-1
+1223	ukip	-1
+1224	ukip	-1
+1225	ukip	1
+1226	ukip	0
+1227	ukip	1
+1228	ukip	0
+1229	ukip	-1
+1230	ukip	0
+1231	ukip	-1
+1232	ukip	0
+1233	ukip	-1
+1234	ukip	0
+1235	ukip	1
+1236	ukip	-2
+1237	ukip	0
+1238	ukip	0
+1239	ukip	-1
+1240	ukip	1
+1241	ukip	0
+1242	ukip	0
+1243	ukip	-1
+1244	ukip	1
+1245	ukip	0
+1246	ukip	1
+1247	ukip	0
+1248	ukip	-1
+1249	ukip	0
+1250	ukip	1
+1251	ukip	1
+1252	valentine	1
+1253	valentine	1
+1254	valentine	1
+1255	valentine	2
+1256	valentine	1
+1257	valentine	1
+1258	valentine	1
+1259	valentine	1
+1260	valentine	1
+1261	valentine	1
+1262	valentine	0
+1263	valentine	0
+1264	valentine	1
+1265	valentine	1
+1266	valentine	1
+1267	valentine	1
+1268	valentine	0
+1269	valentine	1
+1270	valentine	1
+1271	valentine	1
+1272	valentine	0
+1273	valentine	1
+1274	valentine	1
+1275	valentine	1
+1276	valentine	1
+1277	valentine	1
+1278	valentine	1
+1279	valentine	1
+1280	valentine	0
+1281	valentine	2
+1282	valentine	1
+1283	valentine	1
+1284	valentine	1
+1285	valentine	1
+1286	valentine	1
+1287	valentine	1
+1288	valentine	1
+1289	valentine	1
+1290	valentine	1
+1291	valentine	1
+1292	valentine	0
+1293	valentine	0
+1294	valentine	1
+1295	valentine	0
+1296	valentine	1
+1297	valentine	1
+1298	valentine	1
+1299	valentine	0
+1300	valentine	1
+1301	valentine	1
+1302	valentine	0
+1303	valentine	1
+1304	valentine	1
+1305	valentine	1
+1306	valentine	1
+1307	valentine	1
+1308	valentine	2
+1309	valentine	1
+1310	valentine	1
+1311	valentine	2
+1312	valentine	1
+1313	valentine	1
+1314	valentine	1
+1315	valentine	1
+1316	valentine	1
+1317	valentine	0
+1318	valentine	1
+1319	valentine	0
+1320	valentine	1
+1321	valentine	1
+1322	valentine	1
+1323	valentine	-1
+1324	valentine	1
+1325	valentine	1
+1326	valentine	0
+1327	valentine	0
+1328	valentine	0
+1329	valentine	0
+1330	valentine	1
+1331	valentine	1
+1332	valentine	1
+1333	valentine	1
+1334	valentine	1
+1335	valentine	1
+1336	valentine	0
+1337	valentine	1
+1338	valentine	1
+1339	valentine	1
+1340	valentine	1
+1341	valentine	1
+1342	valentine	1
+1343	valentine	1
+1344	valentine	1
+1345	valentine 's day	0
+1346	valentine 's day	1
+1347	valentine 's day	1
+1348	valentine 's day	1
+1349	valentine 's day	2
+1350	valentine 's day	1
+1351	valentine 's day	1
+1352	valentine 's day	1
+1353	valentine 's day	1
+1354	valentine 's day	1
+1355	valentine 's day	1
+1356	valentine 's day	2
+1357	valentine 's day	1
+1358	valentine 's day	0
+1359	valentine 's day	0
+1360	valentine 's day	1
+1361	valentine 's day	1
+1362	valentine 's day	0
+1363	valentine 's day	0
+1364	valentine 's day	1
+1365	valentine 's day	1
+1366	valentine 's day	1
+1367	valentine 's day	1
+1368	valentine 's day	1
+1369	valentine 's day	0
+1370	valentine 's day	1
+1371	valentine 's day	0
+1372	valentine 's day	1
+1373	valentine 's day	1
+1374	valentine 's day	1
+1375	valentine 's day	0
+1376	valentine 's day	1
+1377	valentine 's day	1
+1378	valentine 's day	1
+1379	valentine 's day	1
+1380	valentine 's day	1
+1381	valentine 's day	2
+1382	valentine 's day	0
+1383	valentine 's day	1
+1384	valentine 's day	1
+1385	valentine 's day	1
+1386	valentine 's day	1
+1387	valentine 's day	0
+1388	valentine 's day	1
+1389	valentine 's day	1
+1390	valentine 's day	1
+1391	valentine 's day	1
+1392	valentine 's day	1
+1393	valentine 's day	2
+1394	valentine 's day	0
+1395	valentine 's day	1
+1396	valentine 's day	1
+1397	valentine 's day	1
+1398	valentine 's day	1
+1399	valentine 's day	1
+1400	valentine 's day	1
+1401	valentine 's day	1
+1402	valentine 's day	1
+1403	valentine 's day	1
+1404	valentine 's day	1
+1405	valentine 's day	1
+1406	valentine 's day	0
+1407	valentine 's day	1
+1408	valentine 's day	2
+1409	valentine 's day	1
+1410	valentine 's day	1
+1411	valentine 's day	1
+1412	valentine 's day	0
+1413	valentine 's day	1
+1414	valentine 's day	1
+1415	valentine 's day	1
+1416	valentine 's day	1
+1417	valentine 's day	-1
+1418	valentine 's day	2
+1419	valentine 's day	1
+1420	valentine 's day	1
+1421	valentine 's day	1
+1422	valentine 's day	1
+1423	valentine 's day	0
+1424	valentine 's day	1
+1425	valentine 's day	1
+1426	valentine 's day	1
+1427	valentine 's day	2
+1428	valentine 's day	1
+1429	valentine 's day	1
+1430	venice beach	1
+1431	venice beach	1
+1432	venice beach	1
+1433	venice beach	2
+1434	venice beach	1
+1435	venice beach	1
+1436	venice beach	1
+1437	venice beach	1
+1438	venice beach	1
+1439	venice beach	0
+1440	venice beach	1
+1441	venice beach	1
+1442	venice beach	1
+1443	venice beach	1
+1444	venice beach	1
+1445	venice beach	1
+1446	venice beach	1
+1447	venice beach	1
+1448	venice beach	1
+1449	venice beach	1
+1450	venice beach	1
+1451	venice beach	1
+1452	venice beach	1
+1453	venice beach	1
+1454	venice beach	0
+1455	venice beach	1
+1456	venice beach	1
+1457	venice beach	1
+1458	venice beach	0
+1459	venice beach	1
+1460	venice beach	1
+1461	venice beach	1
+1462	venice beach	1
+1463	venice beach	2
+1464	venice beach	0
+1465	venice beach	1
+1466	venice beach	1
+1467	venice beach	0
+1468	venice beach	1
+1469	venice beach	1
+1470	venice beach	1
+1471	venice beach	1
+1472	venice beach	1
+1473	venice beach	1
+1474	venice beach	1
+1475	venice beach	1
+1476	venice beach	1
+1477	venice beach	0
+1478	venice beach	1
+1479	venice beach	1
+1480	venice beach	1
+1481	venice beach	1
+1482	venice beach	1
+1483	venice beach	1
+1484	venice beach	0
+1485	venice beach	1
+1486	venice beach	1
+1487	venice beach	1
+1488	venice beach	1
+1489	venice beach	1
+1490	venice beach	0
+1491	venice beach	1
+1492	venice beach	1
+1493	venice beach	1
+1494	venice beach	1
+1495	venice beach	0
+1496	venice beach	-1
+1497	venice beach	1
+1498	venice beach	0
+1499	venice beach	0
+1500	venice beach	1
+1501	venice beach	0
+1502	venice beach	0
+1503	venice beach	1
+1504	venice beach	1
+1505	venice beach	1
+1506	venice beach	1
+1507	venice beach	1
+1508	venice beach	1
+1509	venice beach	1
+1510	venice beach	1
+1511	venice beach	1
+1512	venice beach	0
+1513	venice beach	1
+1514	windows 10	0
+1515	windows 10	0
+1516	windows 10	0
+1517	windows 10	1
+1518	windows 10	1
+1519	windows 10	0
+1520	windows 10	0
+1521	windows 10	0
+1522	windows 10	-1
+1523	windows 10	0
+1524	windows 10	0
+1525	windows 10	1
+1526	windows 10	0
+1527	windows 10	0
+1528	windows 10	1
+1529	windows 10	0
+1530	windows 10	0
+1531	windows 10	0
+1532	windows 10	0
+1533	windows 10	0
+1534	windows 10	1
+1535	windows 10	1
+1536	windows 10	0
+1537	windows 10	0
+1538	windows 10	1
+1539	windows 10	0
+1540	windows 10	0
+1541	windows 10	0
+1542	windows 10	-2
+1543	windows 10	0
+1544	windows 10	0
+1545	windows 10	0
+1546	windows 10	0
+1547	windows 10	1
+1548	windows 10	0
+1549	windows 10	0
+1550	windows 10	1
+1551	windows 10	1
+1552	windows 10	0
+1553	windows 10	0
+1554	windows 10	0
+1555	windows 10	1
+1556	windows 10	0
+1557	windows 10	0
+1558	windows 10	1
+1559	windows 10	0
+1560	windows 10	0
+1561	windows 10	0
+1562	windows 10	0
+1563	windows 10	-1
+1564	windows 10	0
+1565	windows 10	1
+1566	windows 10	0
+1567	windows 10	0
+1568	windows 10	1
+1569	windows 10	0
+1570	windows 10	0
+1571	windows 10	1
+1572	windows 10	1
+1573	windows 10	1
+1574	windows 10	1
+1575	windows 10	0
+1576	windows 10	0
+1577	windows 10	0
+1578	windows 10	1
+1579	windows 10	-1
+1580	windows 10	0
+1581	windows 10	0
+1582	windows 10	1
+1583	windows 10	0
+1584	windows 10	1
+1585	windows 10	1
+1586	windows 10	0
+1587	windows 10	1
+1588	windows 10	0
+1589	windows 10	0
+1590	windows 10	0
+1591	windows 10	0
+1592	windows 10	1
+1593	windows 10	1
+1594	windows 10	0
+1595	windows 10	1
+1596	windows 10	1
+1597	windows 10	0
+1598	windows 10	0
+1599	windows 10	1
+1600	windows 10	1
+1601	windows 10	0
+1602	windows 10	1
+1603	windows 10	1
+1604	windows 10	0
+1605	windows 10	-1
+1606	windows 10	1
+1607	windows 10	0
+1608	xbox	1
+1609	xbox	1
+1610	xbox	-1
+1611	xbox	0
+1612	xbox	1
+1613	xbox	1
+1614	xbox	1
+1615	xbox	0
+1616	xbox	1
+1617	xbox	1
+1618	xbox	0
+1619	xbox	1
+1620	xbox	1
+1621	xbox	0
+1622	xbox	0
+1623	xbox	1
+1624	xbox	1
+1625	xbox	0
+1626	xbox	0
+1627	xbox	0
+1628	xbox	-1
+1629	xbox	0
+1630	xbox	1
+1631	xbox	0
+1632	xbox	0
+1633	xbox	1
+1634	xbox	1
+1635	xbox	1
+1636	xbox	1
+1637	xbox	0
+1638	xbox	1
+1639	xbox	0
+1640	xbox	0
+1641	xbox	0
+1642	xbox	1
+1643	xbox	0
+1644	xbox	1
+1645	xbox	1
+1646	xbox	0
+1647	xbox	0
+1648	xbox	-1
+1649	xbox	0
+1650	xbox	0
+1651	xbox	1
+1652	xbox	0
+1653	xbox	0
+1654	xbox	0
+1655	xbox	1
+1656	xbox	0
+1657	xbox	1
+1658	xbox	1
+1659	xbox	0
+1660	xbox	1
+1661	xbox	1
+1662	xbox	1
+1663	xbox	1
+1664	xbox	1
+1665	xbox	1
+1666	xbox	0
+1667	xbox	1
+1668	xbox	1
+1669	xbox	0
+1670	xbox	0
+1671	xbox	0
+1672	xbox	1
+1673	xbox	0
+1674	xbox	1
+1675	xbox	1
+1676	xbox	1
+1677	xbox	1
+1678	xbox	0
+1679	xbox	1
+1680	xbox	0
+1681	xbox	1
+1682	xbox	1
+1683	xbox	1
+1684	xbox	1
+1685	xbox	-1
+1686	xbox	1
+1687	xbox	0
+1688	xbox	0
+1689	xbox	1
+1690	xbox	0
+1691	xbox	1
+1692	xbox	1
+1693	xbox	1
+1694	xbox	1
+1695	zlatan	1
+1696	zlatan	1
+1697	zlatan	0
+1698	zlatan	0
+1699	zlatan	1
+1700	zlatan	2
+1701	zlatan	1
+1702	zlatan	1
+1703	zlatan	0
+1704	zlatan	1
+1705	zlatan	1
+1706	zlatan	1
+1707	zlatan	0
+1708	zlatan	1
+1709	zlatan	0
+1710	zlatan	0
+1711	zlatan	0
+1712	zlatan	1
+1713	zlatan	0
+1714	zlatan	1
+1715	zlatan	-1
+1716	zlatan	0
+1717	zlatan	1
+1718	zlatan	1
+1719	zlatan	0
+1720	zlatan	1
+1721	zlatan	0
+1722	zlatan	0
+1723	zlatan	0
+1724	zlatan	1
+1725	zlatan	1
+1726	zlatan	1
+1727	zlatan	1
+1728	zlatan	0
+1729	zlatan	1
+1730	zlatan	0
+1731	zlatan	1
+1732	zlatan	0
+1733	zlatan	-1
+1734	zlatan	1
+1735	zlatan	1
+1736	zlatan	0
+1737	zlatan	1
+1738	zlatan	0
+1739	zlatan	0
+1740	zlatan	1
+1741	zlatan	0
+1742	zlatan	0
+1743	zlatan	1
+1744	zlatan	0
+1745	zlatan	0
+1746	zlatan	1
+1747	zlatan	0
+1748	zlatan	1
+1749	zlatan	0
+1750	zlatan	1
+1751	zlatan	0
+1752	zlatan	0
+1753	zlatan	0
+1754	zlatan	0
+1755	zlatan	-1
+1756	zlatan	0
+1757	zlatan	0
+1758	zlatan	0
+1759	zlatan	1
+1760	zlatan	1
+1761	zlatan	0
+1762	zlatan	-1
+1763	zlatan	1
+1764	zlatan	-1
+1765	zlatan	0
+1766	zlatan	1
+1767	zlatan	-1
+1768	zlatan	-1
+1769	zlatan	-1
+1770	zlatan	0
+1771	zlatan	1
+1772	zlatan	0
+1773	zlatan	1
+1774	zlatan	1
+1775	zlatan	-1
+1776	zlatan	1
+1777	zlatan	0
+1778	zlatan	1
+1779	zlatan	1
+1780	zlatan	0
+1781	zlatan	1

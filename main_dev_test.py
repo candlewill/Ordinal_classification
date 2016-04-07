@@ -46,13 +46,16 @@ Y_test = (np.array(Y_test) + 2) / 4
 
 batch_size = 8
 nb_epoch = 3
-model = cnn_lstm(W)
+model = cnn(W)
 
 model.compile(loss='mae', optimizer='adagrad')  # loss function: mse
 print("Train...")
 early_stopping = EarlyStopping(monitor='val_loss', patience=5)
 result = model.fit(X_train, Y_train, batch_size=batch_size, nb_epoch=nb_epoch, validation_data=(X_valid, Y_dev),
                    callbacks=[early_stopping])
+
+score_valid = model.evaluate(X_valid, Y_dev, batch_size=batch_size)
+print('Validation score:', score_valid)
 
 score = model.evaluate(X_test, Y_test, batch_size=batch_size)
 print('Test score:', score)
@@ -62,9 +65,15 @@ predict = model.predict(X_test, batch_size=batch_size).reshape((1, len(X_test)))
 print('Y_test: %s' % str(Y_test))
 print('Predict value: %s' % str(predict))
 
-submit_predict = model.predict(X_test, batch_size=batch_size).reshape((1, len(X_test)))[0]
+submit_predict = model.predict(submit_test, batch_size=batch_size).reshape((1, len(submit_test)))[0]
 
-pickle.dump((test, submit_predict), open("./tmp/submit_cnn_lstm.p", 'wb'))
+pickle.dump((test, submit_predict), open("./tmp/submit_cnn.p", 'wb'))
+
+valid_predict = model.predict(X_test, batch_size=batch_size).reshape((1, len(X_test)))[0]
+
+pickle.dump((test, valid_predict), open("./tmp/submit_cnn_valid.p", 'wb'))
+
+
 exit()
 print("Saving model and weights...")
 json_string = model.to_json()
